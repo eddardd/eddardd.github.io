@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Eduardo Montesuma"
 title_separator          : "-"
 name                     : &name "Eduardo Fernandes Montesuma"
 description              : &description "personal description"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Eduardo Fernandes Montesuma"
-  avatar           : "profile.png"
+  avatar           : "photo.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Fortaleza-CE"
   employer         :
