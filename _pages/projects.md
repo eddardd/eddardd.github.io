@@ -10,6 +10,7 @@ Here I present a summary of projects I have worked on.
 
 # Undergraduate (UFC)
 
+1. Cervical Cancer Detection using Machine Learning [[Code]]()
 
 # Master (INSA de Rennes)
 
