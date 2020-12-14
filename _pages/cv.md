@@ -11,49 +11,32 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Engineering, Universidade Federal do Ceará, January/2015 - Present
+* M.S. in Electronics and Industrial Informatics, Institut National des Sciences Appliquées de Rennes, September/2018 - August/2020
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* March 2020 - August 2020: Research Assistant in Artificial Intelligence
+  * During this internship I was in charge of implementing Optimal Transport for Domain Adaptation methods for a problem involving transfer learning on the classification of bacteria cell stain.
+  * Supervisor: PhD. Fred-Maurice Ngolè Mboula
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2019: Research Assistant in Deep Learning
+  * During this internship I was in charge of implementing a benchmark for comparing image denoising methods. A special focus was given to deep neural network methods.
+  * The benchmark is Open Source, and its code is hosted on [Github](https://github.com/opendenoising/)
+  * Supervisor: Ms. C. Florian Lemarchand
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* __Python:__ Tensorflow, Pytorch, Python Optimal Transport
+* __Matlab:__ Simulink, Deep Learning Toolbos
+* __Others:__ [Tableau](https://public.tableau.com/profile/eduardo.fernandes.montesuma#!/), Latex, C/C++
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+1. Lemarchand, F., Montesuma, E. F., Pelcat, M., & Nogues, E. (2020, May). OpenDenoising: an Extensible Benchmark for Building Comparative Studies of Image Denoisers. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 2648-2652). IEEE. [[Bibtex]](https://eddardd.github.io/files/Papers/opendenoising.bibtex) [[Arxiv]](https://arxiv.org/pdf/1910.08328.pdf) [[Code]](https://github.com/opendenoising/opendenoising-benchmark)
+1. Montesuma, Eduardo F., Levi PSA Alencar, and Guilherme A. Barreto. "Avaliação de Algoritmos de Classificação de Padrões na Detecção de Câncer do Colo do Útero." [[Bibtex]](https://eddardd.github.io/files/Papers/siscolo.bibtex) [[Paper]](https://eventos.ufabc.edu.br/siimsps/files/id74.pdf)
   
-Talks
+Scolarships
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* During September/2018 and Ferbuary/2020 I had the opportunity to have my double degree studies in France funded by Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), with a [BRAFITEC Scolarship](http://uab.capes.gov.br/bolsas-e-auxilios-internacionais/pais/205-franca/9822-programa-capes-brafitec)
