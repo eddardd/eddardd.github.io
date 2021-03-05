@@ -6,6 +6,10 @@ author_profile: true
 toc: true
 ---
 
+## Lecture on Introductory Optimal Transport for Machine Learning (05/03/2020)
+
+A link to the presentation slides may be found [here](https://eddardd.github.io/IntroductoryOTML/). The code used for the figures and examples can be found [here](https://github.com/eddardd/IntroductoryOTML)
+
 ## Semana da Tecnologia da Informação e Comunicação 2020 (02/12/2020 and 03/12/2020)
 
 Crash course on Deep Learning using Tensorflow (Portuguese) [[Presentation]](https://eddardd.github.io/files/Presentations/SETIC2020.pdf)
