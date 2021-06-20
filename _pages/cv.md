@@ -1,13 +1,11 @@
 ---
 layout: archive
-title: "CV"
+title: 
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
 
 <h2 style="text-align: center;">Education</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
@@ -91,8 +89,10 @@ French (B2/Advanced)<br>
 
 <h2 style="text-align: center;">Publications</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
-1. Lemarchand, F., Montesuma, E. F., Pelcat, M., & Nogues, E. (2020, May). OpenDenoising: an Extensible Benchmark for Building Comparative Studies of Image Denoisers. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 2648-2652). IEEE. [[Bibtex]](https://eddardd.github.io/files/Papers/opendenoising.bibtex) [[Arxiv]](https://arxiv.org/pdf/1910.08328.pdf) [[Code]](https://github.com/opendenoising/opendenoising-benchmark)
-2. Montesuma, Eduardo F., Levi PSA Alencar, and Guilherme A. Barreto. "Avaliação de Algoritmos de Classificação de Padrões na Detecção de Câncer do Colo do Útero." [[Bibtex]](https://eddardd.github.io/files/Papers/siscolo.bibtex) [[Paper]](https://eventos.ufabc.edu.br/siimsps/files/id74.pdf)
+1. Lemarchand, F., Montesuma, E. F., Pelcat, M., & Nogues, E. (2020, May). __OpenDenoising: an Extensible Benchmark for Building Comparative Studies of Image Denoisers__. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 2648-2652). IEEE. [[Bibtex]](https://eddardd.github.io/files/Papers/opendenoising.bibtex) [[Arxiv]](https://arxiv.org/pdf/1910.08328.pdf) [[Code]](https://github.com/opendenoising/opendenoising-benchmark)
+2. Montesuma, Eduardo F., Levi PSA Alencar, and Guilherme A. Barreto. __Avaliação de Algoritmos de Classificação de Padrões na Detecção de Câncer do Colo do Útero.__ [[Bibtex]](https://eddardd.github.io/files/Papers/siscolo.bibtex) [[Paper]](https://eventos.ufabc.edu.br/siimsps/files/id74.pdf)
+3. Montesuma, E. F., & Mboula, F. M. N. (2021, June). __Wasserstein Barycenter Transport for Acoustic Adaptation__. In ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 3405-3409). [[IEEE Explore]](https://ieeexplore.ieee.org/document/9414199) [[Code]](https://github.com/eddardd/WBTransport)
+4. Montesuma, E., & Mboula, F. (2021). __Wasserstein Barycenter for Multi-Source Domain Adaptation__. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 16785-16793). [[The CVF Open Access]](https://openaccess.thecvf.com/content/CVPR2021/html/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html) [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.pdf) [[Supplementary]](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Montesuma_Wasserstein_Barycenter_for_CVPR_2021_supplemental.pdf) [[Code]](https://github.com/eddardd/WBTransport)
   
 <h2 style="text-align: center;">Scholarships and Awards</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
