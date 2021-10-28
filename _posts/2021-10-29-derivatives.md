@@ -154,13 +154,13 @@ A norm is a function on a vector space $E$ that suffices the following propertie
 1. __Nonegativity:__ $\forall \mathbf{u} \in \mathbb{R}^{n}$
 2. __Scalar Multiplication:__
 
-$$\lambda \in \mathbb{R}, \mathbf{u} \in E$$
+$$\lambda \in \mathbb{R}, \mathbf{u} \in E, ||\lambda\mathbf{u}||$$
 
 3. __Triangle Inequality:__ $\forall \mathbf{u},\mathbf{v} \in E$,
 
 $$||\mathbf{u}+\mathbf{v}|| \leq ||\mathbf{u}|| + ||\mathbf{v}||$$
 
-A vector space equiped with a norm is denoted as $(E,||\cdot||)$, and is called a __normed space__.
+A vector space equiped with a norm is denoted as, and is called a __normed space__.
 
 ---
 
