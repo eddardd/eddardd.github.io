@@ -149,9 +149,9 @@ Note that this is __a__ inner product, other may be defined in $\mathbb{R}^{n}$ 
 ---
 **Definition: Norm**
 
-A norm is an operation $||\cdot||:E\rightarrow\mathbb{R}$ on a vector space $E$ that suffices the following properties,
+A norm is an operation $ ||\cdot|| : E \rightarrow \mathbb{R}$ on a vector space $E$ that suffices the following properties,
 
-1. __Nonegativity:__ $\forall \mathbf{u} \in \mathbb{R}^{n}$, $||\mathbf{u}|| \geq 0$, the equality holding if and only if $\mathbf{u} = \mathbf{0}$.
+1. __Nonegativity:__ $\forall \mathbf{u} \in \mathbb{R}^{n}$, $|| \mathbf{u} || \geq 0$, the equality holding if and only if $\mathbf{u} = \mathbf{0}$.
 2. __Scalar Multiplication:__ $\forall \mathbf{u}, \forall \lambda \in \mathbb{R}$, $||\lambda \mathbf{u}|| = |\lambda|\cdot||\mathbf{u}||$
 3. __Triangle Inequality:__ $\forall \mathbf{u},\mathbf{v} \in E$,
 
@@ -252,16 +252,14 @@ which, as you may notice, the final term is $d(\mathbf{x}, \mathbf{z}) + d(\math
 
 ---
 
+## Derivatives
 
+### On the Real Line
 
-# Derivatives
+### On Euclidean Spaces
 
-## On the Real Line
+### On Metric Spaces
 
-## On Euclidean Spaces
+### Jacobian Matrix
 
-## On Metric Spaces
-
-## Jacobian Matrix
-
-## Hessian Matrix
+### Hessian Matrix
