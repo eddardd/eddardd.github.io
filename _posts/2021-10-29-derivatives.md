@@ -11,13 +11,13 @@ tags:
 
 In this post I will discuss the notion of derivative and how to compute them on different spaces, ranging from the real line, up to general metric spaces
 
-# Introduction
+## Introduction
 
 In introductory calculus courses, derivatives play a central role alongside integrals. Even though the definition and intuition of a derivative in the real line is very straightforward, one can often found themselves lost in more general (and complex) spaces.
 
 To that end, we begin by introducing different notions of spaces that are, in a certain sense, generalizations of the real line. Once these spaces are properly defined, we can understand derivatives on functions whose domain are these spaces. Whenever possible, we adopt a bottom-up approach in terms of abstraction, namely, we start with the most basic notions up to the most general.
 
-## Vector Spaces
+### Vector Spaces
 
 The most intuitive vector space is $\mathbb{R}^{2}$, whose elements are ordered tuples $\mathbf{v} = (x, y), x \in \mathbb{R}, y\in \mathbb{R}$. The elements of $\mathbb{R}^{2}$ can be visualized in the __cartesian plane__, as follows,
 
@@ -83,7 +83,7 @@ __Properties of the Multiplication by Scalar Operation__
 
 As you can see, the definition of a vector space has much more to do with the vector addition and multiplication by scalar opertions than with the elements of $E$ themselves. It is often very tedious to prove that a set $E$ is a vector space, but you can note that for $\mathbb{R}^{2}$, the properties hold from the properties of real numbers. More complicated spaces have more involved proofs.
 
-## Euclidean Spaces
+### Euclidean Spaces
 
 As $\mathbb{R}^{2}$ represents a way to identify points on a plane, $\mathbb{R}^{3}$ allows us to identify points in space. This is done by using three cordinates $\mathbf{p} = (x, y, z)$. The most general case correspond to $\mathbb{R}^{n}$, where $n$ is any positive integer. These spaces are generally called Euclidean Spaces. Points in an Euclidean space are defined as follows,
 
@@ -97,7 +97,105 @@ that is, one has coordinate-wise sum. This is also valid for scalar multiplicati
 
 $$\lambda \mathbf{x} = (\lambda x_{1}, \cdots, \lambda x_{2})$$
 
-As follows, let us define two new operations on vectors: the inner product, and the norm.
+As follows, let us define two new operations on vectors: the inner product, the norm and the metric.
+
+#### Inner Product
+
+---
+**Definition: Inner Product**
+
+An inner product is an operation $\langle \cdot, \cdot \rangle:E\times E\rightarrow\mathbb{R}$ on a vector space $E$ that suffices the following properties,
+
+1. __Linearity in the first argument:__ $\forall\mathbf{u}, \mathbf{v}, \mathbf{w} \in E$, $\lambda \in \mathbb{R}$,
+   $$\langle \mathbf{u} + \lambda\mathbf{v},\mathbf{w}\rangle = \langle \mathbf{u},\mathbf{w}\rangle + \lambda \langle \mathbf{v},\mathbf{w}\rangle$$
+2. __Symmetry:__ $\forall \mathbf{u},\mathbf{v}$, $\langle\mathbf{u},\mathbf{v}\rangle = \langle\mathbf{v},\mathbf{u}\rangle$
+3. __Positive Definiteness:__ $\forall \mathbf{u}$, $\langle\mathbf{u},\mathbf{u}\rangle \geq 0$, the equality holds if and only if $\mathbf{u} = \mathbf{0}$.
+
+A vector space equiped with an inner product is denoted as $(E,\langle\cdot,\cdot\rangle)$, and is called an __inner product space__.
+
+---
+
+For grounding this definition, let us give an example
+
+---
+**Definition: Inner Product in Euclidean Spaces**
+
+Let $E = \mathbb{R}^{n}$. The natural notion of inner product is given by the __dot product__,
+$$\langle \mathbf{x},\mathbf{y} \rangle = \mathbf{x}\cdot\mathbf{y} = \mathbf{x}^{T}\mathbf{y} = \sum_{i=1}^{n}x_{i}y_{i}$$
+
+Next, we verify the three properties of the inner product,
+
+__Property 1__
+
+$$\langle \mathbf{x} + \mathbf{z},\mathbf{y} \rangle = \sum_{i=1}^{n}(x_{i}+z_{i})y_{i} = \sum_{i=1}^{n}x_{i}y_{i}+\sum_{i=1}^{n}z_{i}y_{i}$$
+
+__Property 2__
+
+$$\langle \mathbf{x},\mathbf{y} \rangle = \sum_{i=1}^{n}x_{i}y_{i} = \sum_{i=1}^{n}y_{i}x_{i} = \langle \mathbf{y},\mathbf{x} \rangle$$
+
+__Property 3__
+
+$$\langle \mathbf{x},\mathbf{x} \rangle = \sum_{i=1}^{n}x_{i}^{2} \geq 0$$
+
+since this previous sum is a sum of non-negative terms. Note that it is only zero if $x_{i} = 0$ $\forall i$.
+
+---
+
+#### Norm
+
+Note that this is __a__ inner product, other may be defined in $\mathbb{R}^{n}$ as well. This is also called __canonical__ inner product.
+
+---
+**Definition: Norm**
+
+A norm is an operation $||\cdot||:E\rightarrow\mathbb{R}$ on a vector space $E$ that suffices the following properties,
+
+1. __Nonegativity:__ $\forall \mathbf{u} \in \mathbb{R}^{n}$, $||\mathbf{u}|| \geq 0$, the equality holding if and only if $\mathbf{u} = \mathbf{0}$.
+2. __Scalar Multiplication:__ $\forall \mathbf{u}, \forall \lambda \in \mathbb{R}$, $||\lambda \mathbf{u}|| = |\lambda|\cdot||\mathbf{u}||$
+3. __Triangle Inequality:__ $\forall \mathbf{u},\mathbf{v} \in E$,
+
+$$||\mathbf{u}+\mathbf{v}|| \leq ||\mathbf{u}|| + ||\mathbf{v}||$$
+
+A vector space equiped with a norm is denoted as $(E,||\cdot||)$, and is called a __normed space__.
+
+---
+
+As with the canonical inner product, one also has a canonical idea of norm in Euclidean spaces,
+
+---
+**Definition: Norms in Euclidean Spaces**
+
+Let $E = \mathbb{R}^{n}$. The natural notion of norm is given by,
+
+$$||\mathbf{x}|| = \sqrt{\mathbf{x}^{T}\mathbf{x}} = \sqrt{\langle\mathbf{x},\mathbf{x}\rangle} = \sum_{i=1}^{n}x_{i}^{2}$$
+
+Next, we verify the three properties of the inner product,
+
+__Property 1__
+
+This property is the same as Property 3 of the canonical inner product on $\mathbb{R}^{n}$.
+
+__Property 2__
+
+$$||\lambda\mathbf{x}|| = \sqrt{\sum_{i=1}^{n}(\lambda x_{i})^{2}} = \sqrt{\sum_{i=1}^{n}\lambda^{2}x_{i}^{2}} = |\lambda|\sqrt{\sum_{i=1}^{n}x_{i}^{2}}$$
+
+__Property 3__
+
+$$||\mathbf{x}+\mathbf{y}||^{2} = \sum_{i=1}^{n}(x_{i} + y_{i})^{2} = \sum_{i=1}^{n}x_{i}^{2} + \sum_{i=1}^{n}y_{i}^{2} + 2\sum_{i=1}^{n}x_{i}y_{i} = ||\mathbf{x}||^{2}+||\mathbf{y}||^{2} + 2\mathbf{x}^{T}\mathbf{y}$$
+
+now, we use a property called Cauchy-Schwarz inequality, that is stated as follows,
+
+$$\mathbf{x}^{T}\mathbf{y} \leq ||\mathbf{x}||\cdot||\mathbf{y}||$$
+
+As follows,
+
+$$||\mathbf{x}+\mathbf{y}||^{2} = ||\mathbf{x}||^{2}+||\mathbf{y}||^{2} + 2\mathbf{x}^{T}\mathbf{y} \leq ||\mathbf{x}||^{2}+||\mathbf{y}||^{2} + 2||\mathbf{x}||\cdot||\mathbf{y}|| = (||\mathbf{x}||+||\mathbf{y}||)^{2}$$
+
+taking the square root on both sides yields the desired inequality.
+
+---
+
+#### Metric
 
 ## Metric Spaces
 
