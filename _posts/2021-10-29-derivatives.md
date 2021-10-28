@@ -118,9 +118,10 @@ A vector space equiped with an inner product is denoted as $(E,\langle\cdot,\cdo
 For grounding this definition, let us give an example
 
 ---
-**Definition: Inner Product in Euclidean Spaces**
+**Example: Inner Product in Euclidean Spaces**
 
 Let $E = \mathbb{R}^{n}$. The natural notion of inner product is given by the __dot product__,
+
 $$\langle \mathbf{x},\mathbf{y} \rangle = \mathbf{x}\cdot\mathbf{y} = \mathbf{x}^{T}\mathbf{y} = \sum_{i=1}^{n}x_{i}y_{i}$$
 
 Next, we verify the three properties of the inner product,
@@ -163,13 +164,13 @@ A vector space equiped with a norm is denoted as $(E,||\cdot||)$, and is called 
 As with the canonical inner product, one also has a canonical idea of norm in Euclidean spaces,
 
 ---
-**Definition: Norms in Euclidean Spaces**
+**Example: Norms in Euclidean Spaces**
 
-Let $E = \mathbb{R}^{n}$. The natural notion of norm is given by,
+Let \(E = \mathbb{R}^{n}\). The natural notion of norm is given by,
 
 $$||\mathbf{x}|| = \sqrt{\mathbf{x}^{T}\mathbf{x}} = \sqrt{\langle\mathbf{x},\mathbf{x}\rangle} = \sum_{i=1}^{n}x_{i}^{2}$$
 
-Next, we verify the three properties of the inner product,
+Next, we verify the three properties of the norm,
 
 __Property 1__
 
@@ -197,7 +198,59 @@ taking the square root on both sides yields the desired inequality.
 
 #### Metric
 
-## Metric Spaces
+---
+**Definition: Metric**
+
+A metric $d:E\times E\rightarrow \mathbb{R}$ is a function between vectors in $E$ such that,
+
+1. __Identity of indiscernibles:__ $\forall \mathbf{u},\mathbf{v} \in E$, $d(\mathbf{u}, \mathbf{v}) = 0 \iff \mathbf{u} = \mathbf{v}$,
+2. __Symmetry:__ $\forall \mathbf{u}, \mathbf{v}$, $d(\mathbf{u}, \mathbf{v}) = d(\mathbf{v}, \mathbf{u})$.
+3. __Triangle Inequality:__  $\forall \mathbf{u},\mathbf{v},\mathbf{w}$, $d(\mathbf{u},\mathbf{v}) \leq d(\mathbf{u},\mathbf{w}) + d(\mathbf{w},\mathbf{v})$.
+
+A vector space equiped with a metric $d$ is denoted $(E, d)$, and is called a __metric space__.
+
+---
+
+As before we build our intuition in the case of Euclidean spaces.
+
+---
+**Example: Metrics in Euclidean Spaces**
+
+Let $E = \mathbb{R}^{n}$. The natural notion of metric is given by,
+
+$$d(\mathbf{x},\mathbf{y}) = ||\mathbf{x}-\mathbf{y}|| = \sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}$$
+
+Next, we verify the three properties of the metric,
+
+__Property 1__
+
+Let $\mathbf{x} = \mathbf{y}$,
+
+$$d(\mathbf{x},\mathbf{x}) = \sqrt{\sum_{i=1}^{n}(x_{i}-x_{i})^{2}} = \sqrt{\sum_{i=1}^{n}0} = 0$$
+
+On the other hand, let $d(\mathbf{x},\mathbf{y}) = 0$,
+
+$$\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}} = 0 \iff \sum_{i=1}^{n}(x_{i}-y_{i})^{2} = 0$$
+
+note that this is a summation over non-negative terms. Thus,
+
+$$\forall i, x_{i} - y_{i} = 0 \implies x_{i} = y_{i}$$
+
+__Property 2__
+
+For $\mathbf{x}, \mathbf{y}$,
+
+$$d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}} = \sqrt{\sum_{i=1}^{n}(y_{i}-x_{i})^{2}} = d(\mathbf{y}, \mathbf{x})$$
+
+__Property 3__
+
+For $\mathbf{x}, \mathbf{y}$ and $\mathbf{z}$,
+
+$$d(\mathbf{x},\mathbf{y}) = \sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}} = \sqrt{\sum_{i=1}^{n}(x_{i} - z_{i} + z_{i} - y_{i})^{2}} \leq \sqrt{\sum_{i=1}^{n}(x_{i}-z_{i})^{2}} + \sqrt{\sum_{i=1}^{n}(z_{i}-x_{i})^{2}}$$
+
+which, as you may notice, the final term is $d(\mathbf{x}, \mathbf{z}) + d(\mathbf{z}, \mathbf{y})$.
+
+---
 
 
 
