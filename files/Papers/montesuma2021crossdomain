@@ -1,0 +1,7 @@
+@phdthesis{montesuma2021crossdomain,
+    author       = {Eduardo Fernandes Montesuma}, 
+    title        = {Cross-Domain Fault Diagnosis through Optimal Transport},
+    school       = {Universidade Federal do Ceará},
+    year         = 2021,
+    type         = {Bachelor's Thesis}
+} 

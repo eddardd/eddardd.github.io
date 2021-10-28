@@ -5,30 +5,17 @@ permalink: /publications/
 author_profile: true
 toc: true
 ---
-<!--
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-
-
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
-toc: true
----
--->
 A summary of my recent work is available at [Google Scholar](https://scholar.google.com.br/citations?user=elSROdcAAAAJ&hl=en).
 
-## Conference Paper
+## Thesis
+
+### 2021
+
+Montesuma, E. F. (2021, April). __Cross-Domain Fault Diagnosis through Optimal Transport__ [Bachelor Thesis, Universidade Federal do Ceará].
+[[Research Gate]](https://www.researchgate.net/publication/354664416_Cross-Domain_Fault_Diagnosis_Through_Optimal_Transport) [[Code]](https://github.com/eddardd/CrossDomainFaultDiagnosis) [[Bibtex]](https://eddardd.github.io/files/Papers/montesuma2021crossdomain.bibtex)
+
+## Conference Papers
 
 ### 2021
 
