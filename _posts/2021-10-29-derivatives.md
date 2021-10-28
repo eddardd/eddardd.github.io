@@ -1,6 +1,6 @@
 ---
 title: 'Calculus -- Derivatives'
-date: 2012-08-14
+date: 2021-10-28
 permalink: /posts/calculus/lec1
 toc: True
 tags:
@@ -76,8 +76,9 @@ __Properties of the Addition Operation__
 __Properties of the Multiplication by Scalar Operation__
 1. __Compatibility:__ $\forall \alpha,\beta \in \mathbb{R}, \mathbf{u} \in E$, $\alpha(\beta \mathbf{v}) = \alpha\beta\mathbf{v}$
 2. __Existence of Identity Element:__ $\exists 1 \in \mathbb{R}$ such that $1\mathbf{v} = \mathbf{v}$
-3. __Distributivity of Multiplication w.r.t. Vector Addition:__ $\forall \alpha \in \mathbb{R},\mathbf{u},\mathbf{v} \in E$, $\alpha(\mathbf{u} + \mathbf{v}) = \alpha \mathbf{u} + \alpha \mathbf{v}$
+3. __Distributivity of Multiplication w.r.t. Vector Addition:__ $\forall \alpha \in \mathbb{R},\mathbf{u},\mathbf{v} \in E$, $\alpha(\mathbf{u} + \mathbf{v}) = \alpha \mathbf{u} + \alpha \mathbf{v}$.
 4. __Distributivity of Multiplication w.r.t. Scalar Addition:__ $\forall \alpha,\beta \in \mathbb{R}, \mathbf{u} \in E$, $(\alpha+\beta)\mathbf{u} = \alpha \mathbf{u} + \beta \mathbf{u}$.
+
 ---
 
 As you can see, the definition of a vector space has much more to do with the vector addition and multiplication by scalar opertions than with the elements of $E$ themselves. It is often very tedious to prove that a set $E$ is a vector space, but you can note that for $\mathbb{R}^{2}$, the properties hold from the properties of real numbers. More complicated spaces have more involved proofs.
