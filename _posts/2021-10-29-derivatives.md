@@ -104,7 +104,7 @@ As follows, let us define two new operations on vectors: the inner product, the 
 ---
 **Definition: Inner Product**
 
-An inner product is an operation $\langle \cdot, \cdot \rangle:E\times E\rightarrow\mathbb{R}$ on a vector space $E$ that suffices the following properties,
+An inner product is a function $\langle \cdot, \cdot \rangle:E\times E\rightarrow\mathbb{R}$ on a vector space $E$ that suffices the following properties,
 
 1. __Linearity in the first argument:__ $\forall\mathbf{u}, \mathbf{v}, \mathbf{w} \in E$, $\lambda \in \mathbb{R}$,
    $$\langle \mathbf{u} + \lambda\mathbf{v},\mathbf{w}\rangle = \langle \mathbf{u},\mathbf{w}\rangle + \lambda \langle \mathbf{v},\mathbf{w}\rangle$$
@@ -160,7 +160,7 @@ $$\lambda \in \mathbb{R}, \mathbf{u} \in E, ||\lambda\mathbf{u}|| = |\lambda|||\
 
 $$||\mathbf{u}+\mathbf{v}|| \leq ||\mathbf{u}|| + ||\mathbf{v}||$$
 
-A vector space equiped with a norm is denoted as, and is called a __normed space__.
+A vector space equiped with a norm is called a __normed space__.
 
 ---
 
