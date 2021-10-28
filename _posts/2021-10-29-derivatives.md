@@ -154,7 +154,7 @@ A norm is a function on a vector space $E$ that suffices the following propertie
 1. __Nonegativity:__ $\forall \mathbf{u} \in \mathbb{R}^{n}$
 2. __Scalar Multiplication:__
 
-$$\lambda \in \mathbb{R}, \mathbf{u} \in E, ||\lambda\mathbf{u}||$$
+$$\lambda \in \mathbb{R}, \mathbf{u} \in E, ||\lambda\mathbf{u}|| = |\lambda|||\mathbf{u}||$$
 
 3. __Triangle Inequality:__ $\forall \mathbf{u},\mathbf{v} \in E$,
 
