@@ -149,10 +149,13 @@ Note that this is __a__ inner product, other may be defined in $\mathbb{R}^{n}$ 
 ---
 **Definition: Norm**
 
-A norm is a function $||\cdot||$ on a vector space $E$ that suffices the following properties,
+A norm is a function on a vector space $E$ that suffices the following properties,
 
 1. __Nonegativity:__ $\forall \mathbf{u} \in \mathbb{R}^{n}$
-2. __Scalar Multiplication:__ $\forall \mathbf{u}, \forall \lambda \in \mathbb{R}$, $||\lambda \mathbf{u}|| = |\lambda|\cdot||\mathbf{u}||$
+2. __Scalar Multiplication:__
+
+$$\lambda \in \mathbb{R}, \mathbf{u} \in E$$
+
 3. __Triangle Inequality:__ $\forall \mathbf{u},\mathbf{v} \in E$,
 
 $$||\mathbf{u}+\mathbf{v}|| \leq ||\mathbf{u}|| + ||\mathbf{v}||$$
