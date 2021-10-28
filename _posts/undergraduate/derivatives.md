@@ -5,7 +5,6 @@ permalink: /posts/calculus/lec1
 toc: True
 tags:
   - calculus
-  - limits
   - derivatives
 ---
 
