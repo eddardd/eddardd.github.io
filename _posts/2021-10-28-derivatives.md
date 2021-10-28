@@ -6,6 +6,7 @@ toc: True
 tags:
   - calculus
   - derivatives
+  - undergraduate level
 ---
 
 In this post I will discuss the notion of derivative and how to compute them on different spaces, ranging from the real line, up to general metric spaces
