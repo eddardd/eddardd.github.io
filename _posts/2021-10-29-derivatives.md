@@ -383,7 +383,7 @@ which implies that,
 
 $$\langle \nabla f, \mathbf{v}\rangle = ||\nabla f|||\mathbf{v}||\cos\theta$$
 
-assuming, without loss of generality, that $||\mathbf{v}|| = 1$, that is, we are simply taking derivatives on the direction of $\mathbf{v}$, we see that the expression,
+assuming, without loss of generality, that $| \mathbf{v} | = 1$, that is, we are simply taking derivatives on the direction of $\mathbf{v}$, we see that the expression,
 
 $$\dfrac{\partial f}{\partial \mathbf{v}} = \langle \nabla f, \mathbf{v}\rangle = ||\nabla f||\cos\theta$$
 
@@ -399,6 +399,10 @@ note that this is only true when the basis vectors $\mathbf{e}_{i}$ do not chang
 
 ---
 **Example: Graidents in Polar Coordinates**
+
+For a vector $\mathbf{u} = (x, y)$, the polar representation can be written in terms of the length $r = ||\mathbf{u}||$ and the angle $\theta$. The relationship between $(x,y)$ and $(r,\theta)$ is given below,
+
+$$\begin{cases}x=r\cos\theta\\ y=r\sin\theta\end{cases}\implies\begin{cases}r=\sqrt{x^{2}+y^{2}}\\ \tan\theta=y/x\end{cases}$$
 
 ---
 
