@@ -383,7 +383,7 @@ which implies that,
 
 $$\langle \nabla f, \mathbf{v}\rangle = \lVert\nabla f\lVert|\mathbf{v}\lVert\cos\theta$$
 
-assuming, without loss of generality, that $| \mathbf{v} | = 1$, that is, we are simply taking derivatives on the direction of $\mathbf{v}$, we see that the expression,
+assuming, without loss of generality, that $\lVert \mathbf{v} \lVert = 1$, that is, we are simply taking derivatives on the direction of $\mathbf{v}$, we see that the expression,
 
 $$\dfrac{\partial f}{\partial \mathbf{v}} = \langle \nabla f, \mathbf{v}\rangle = \lVert\nabla f\lVert\cos\theta$$
 
