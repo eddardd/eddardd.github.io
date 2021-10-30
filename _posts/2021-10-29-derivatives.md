@@ -1,6 +1,6 @@
 ---
-title: 'Calculus -- Derivatives'
-date: 2021-10-28
+title: 'Derivatives -- Concepts'
+date: 2021-11-01
 permalink: /posts/calculus/lec1
 toc: True
 tags:
@@ -261,8 +261,155 @@ which, as you may notice, the final term is $d(\mathbf{x}, \mathbf{z}) + d(\math
 
 ### On Euclidean Spaces
 
+When $X \subset \mathbb{R}^{n}$, we say that $f:X\rightarrow\mathbb{R}$ is a (scalar) function of various variables. In
+this case, the variables are $x_{1}, \cdots, x_{n}$. Let $\mathbf{x} = [\mathbf{x}_{1},\cdots,\mathbf{x}_{n}]$, the notion of derivative of $f$ is not unique. Let us start with __partial derivatives__,
+
+#### Partial Derivatives
+
+The definition of partial derivative is,
+
+$$\dfrac{\partial f}{\partial x_{i}} = \lim_{h\rightarrow 0}\dfrac{f(x_{1},\cdots,x_{i}+h,\cdots,x_{n}) - f(x_{1},\cdots,x_{i},\cdots,x_{n})}{h},$$
+
+note that this is equivalent to varying the i-th variable, while holding the other variables constant. That is why we call this notion of derivative "partial". Let us now illustrate partial derivatives of a function on $\mathbb{R}^{2}$.
+
+---
+**Example: Partial Derivatives on $\mathbb{R}^{2}$**
+
+Let $f(x, y) = x^{2} + y^{2}$. The graph of this function can be seen below,
+
+<p align="center">
+  <img src="https://eddardd.github.io/images/PostFigures/Calculus/Surf3d.png"/>
+</p>
+
+If you find any of the two variables (e.g. x or y), you end up with a quadratic function. Let us illustrate for a fixed $y_{0}$,
+
+$$g_{y_{0}}(x) = f(x, y_{0}) = x^{2} + y_{0}^{2}$$
+
+thus,
+
+$$\dfrac{\partial f}{\partial x} = \dfrac{dg}{dx} = 2x$$
+
+the same reasoning may be applied for $x = x_{0}$ fixed, yielding $\partial f/\partial y = 2y$.
+
+---
+
+Note that we may illustrate the notion of partial derivative using basis vectors as well. For an Euclidean space of dimension $n$, is canonical basis is given by $B = \{\mathbf{e}_{i}\}_{i=1}^{n}$, where,
+
+$$e_{ij} = \begin{cases} 1 & \text{if } j=i\\ 0 & \text{otherwise} \end{cases}$$
+
+As follows, the partial derivative can be written as,
+
+$$\dfrac{\partial f}{\partial x_{i}} = \lim_{h\rightarrow 0}\dfrac{f(\mathbf{x} + h\mathbf{e}_{i}) - f(\mathbf{x})}{h}$$
+
+#### Directional Derivative
+
+Using the previous definition for the partial derivative, note that we may as well differentiate $f$ with respect to any vector $\mathbf{v} \in \mathbb{R}^{n}$. This is defined as follows,
+
+$$\dfrac{\partial f}{\partial \mathbf{v}} = \lim_{h\rightarrow 0}\dfrac{f(\mathbf{x} + h\mathbf{v}) - f(\mathbf{x})}{h}$$
+
+This highlights the difference between derivatives on the real line, and on Euclidean spaces: in the former, you can only differentiate in one direction (the real line), while in the latter, there are infinitely many directions to differentiate. These different directions are all related to the partial derivatives, as $\mathbf{v}$ can be decomposed using the canonical basis.
+
+For now, we set this definition aside, and concentrate on the Gradient vector, a notion that will allow us to easily calculate directional derivatives.
+
+#### The Gradient
+
+Note that, as you have multiple partial derivatives, it is sometimes useful to have an aggregated notion of how the function varies as well. To that end, we introduce the Gradient vector, defined as follows,
+
+$$\nabla f = \biggr[\dfrac{\partial f}{\partial x_{1}},\cdots,\dfrac{\partial f}{\partial x_{n}}\biggr] \in \mathbb{R}^{n}$$
+
+that is, for a function of $n$ variables, the gradient is a vector of dimension $n$ as well. In some texts, you might also see the following notation,
+
+$$\dfrac{\partial f}{\partial \mathbf{x}} = \biggr[\dfrac{\partial f}{\partial x_{1}},\cdots,\dfrac{\partial f}{\partial x_{n}}\biggr] \in \mathbb{R}^{n}$$
+
+which highlights the fact that we are differentiating $f$ with respect to the whole vector. This, however, can create a misunderstanding with the notation of directional derivative (which is a number, not a vector), introduced in the previous section. Thus, $\nabla f$ is more clear than $\partial f/ \partial \mathbf{x}$.
+
+Now, let us illustrate how the gradient vector works,
+
+---
+**Example: Gradients on $\mathbb{R}^{2}$**
+
+Let $f(x, y) = x^{2} + y^{2}$. The partial derivatives of $f$ are,
+
+$$\begin{cases}\dfrac{\partial f}{\partial x} = 2x,\\\dfrac{\partial f}{\partial y} = 2y,\end{cases}$$
+
+thus the gradient of $f$ is the vector $\nabla f(x, y) = (2x, 2y)$. Note that this is a __vector field__, namely, a function that takes input vectors, and attributes output vectors, $\nabla f:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$. You can see the gradient vector at various points in $\mathbb{R}^{2}$, and how it relates to the value of $f$ in the figure below,
+
+<p align="center">
+  <img src="https://eddardd.github.io/images/PostFigures/Calculus/Grad2d.png"/>
+</p>
+
+Here, note a few things, First, the gradient points in the direction of maximum increase in $f$. Second, the gradient vectors are orthogonal to the level sets. Indeed, let $\gamma$ be a curve in $\mathbb{R}^{2}$ parametrized by a parameter $\lambda$, such that,
+
+$$g(\lambda) = f(\gamma(\lambda)) = k$$
+
+differentiating with respect to $\lambda$ yields,
+
+$$\dfrac{d g}{d \lambda} = \sum_{i=1}^{n}\dfrac{\partial f}{\partial x_{i}}\dfrac{\partial x_{i}}{\lambda} = \langle \nabla f, \dot{\gamma}\rangle$$
+
+on the other hand, since $g$ is a constant function, its derivative is zero. Hence, $\nabla f$ is perpendicular to the tangent vector $\dot{\gamma}$.
+
+---
+
+Next we illustrate the connection between the gradient vector and the directional derivative,
+
+---
+**Example: Gradients and the Directional Derivative**
+
+Let $f(\mathbf{x})$ for $\mathbf{x} \in \mathbb{R}^{n}$. Let $\mathbf{v}$ be an arbitrary vector in $\mathbb{R}^{n}$. Let $g:\mathbb{R}\rightarrow\mathbb{R}$ be the function,
+
+$$g(h) = f(\mathbf{x}+h\mathbf{v}).$$
+
+Note that the derivative of $g$ at $0$ is,
+
+$$\dfrac{dg}{dh}(0) = \lim_{h\rightarrow 0}\dfrac{g(h) - g(0)}{h} = \lim_{h\rightarrow 0} \dfrac{f(\mathbf{x}+h\mathbf{v})-f(\mathbf{x})}{h} = \dfrac{\partial f}{\partial \mathbf{v}}$$
+
+Thus, we may find an expression for $\partial f/\partial \mathbf{v}$ by taking the limit on the derivative of $g$,
+
+$$\dfrac{\partial f}{\partial \mathbf{v}} = \lim_{h\rightarrow 0}\dfrac{dg}{dh} = \sum_{i=1}^{n}\dfrac{\partial f}{\partial x_{i}}\dfrac{d x_{i}}{d h} = \sum_{i=1}^{n}\dfrac{\partial f}{\partial x_{i}}v_{i} = \langle \nabla f, \mathbf{v} \rangle,$$
+
+now, considering the generalized law of cosines, one has that,
+
+$$||\mathbf{a}-\mathbf{b}||^{2} = ||\mathbf{a}||^{2} + ||\mathbf{b}||^{2} - 2||\mathbf{a}||||\mathbf{b}||\cos\theta$$
+
+where $\theta$ is the angle between vectors $\mathbf{a}$ and $\mathbf{b}$. On the other hand,
+
+$$||\mathbf{a}-\mathbf{b}||^{2} = \langle \mathbf{a}-\mathbf{b},\mathbf{a}-\mathbf{b}\rangle = ||\mathbf{a}||^{2} + ||\mathbf{b}|| - 2\langle \mathbf{a}, \mathbf{b}\rangle$$
+
+equating these two terms yields,
+
+$$\langle \mathbf{a},\mathbf{b}\rangle = ||\mathbf{a}||||\mathbf{b}||\cos\theta$$
+
+which implies that,
+
+$$\langle \nabla f, \mathbf{v}\rangle = ||\nabla f|||\mathbf{v}||\cos\theta$$
+
+assuming, without loss of generality, that $||\mathbf{v}|| = 1$, that is, we are simply taking derivatives on the direction of $\mathbf{v}$, we see that the expression,
+
+$$\dfrac{\partial f}{\partial \mathbf{v}} = \langle \nabla f, \mathbf{v}\rangle = ||\nabla f||\cos\theta$$
+
+which is maximum when $\theta = 0$, that is, when $\mathbf{v}$ points in the deirection of $\nabla f$. Thus, the gradient points in the direction of maximum increase in the function $f$.
+
+---
+
+Note that, previously, we assumed that the gradient is written with respect to the canonical basis in $\mathbb{R}^{n}$. This implies that,
+
+$$\nabla f = \sum_{i=1}^{n}\dfrac{\partial f}{\partial x_{i}}\mathbf{e}_{i}$$
+
+note that this is only true when the basis vectors $\mathbf{e}_{i}$ do not change with $\mathbf{x}$. The next example shows how the gradient vector can be calculated for an alternative basis.
+
+---
+**Example: Graidents in Polar Coordinates**
+
+---
+
 ### On Metric Spaces
 
 ### Jacobian Matrix
 
-### Hessian Matrix
+## Applications in Signal Processing
+
+### Time Series
+
+### Images
+
+### Graphs
