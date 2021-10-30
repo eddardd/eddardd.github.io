@@ -154,11 +154,11 @@ A norm is a function on a vector space $E$ that suffices the following propertie
 1. __Nonegativity:__ $\forall \mathbf{u} \in \mathbb{R}^{n}$
 2. __Scalar Multiplication:__
 
-$$\lambda \in \mathbb{R}, \mathbf{u} \in E, ||\lambda\mathbf{u}|| = |\lambda|||\mathbf{u}||$$
+$$\lambda \in \mathbb{R}, \mathbf{u} \in E, |\lambda\mathbf{u}| = |\lambda||\mathbf{u}|$$
 
 3. __Triangle Inequality:__ $\forall \mathbf{u},\mathbf{v} \in E$,
 
-$$||\mathbf{u}+\mathbf{v}|| \leq ||\mathbf{u}|| + ||\mathbf{v}||$$
+$$|\mathbf{u}+\mathbf{v}| \leq |\mathbf{u}| + |\mathbf{v}|$$
 
 A vector space equiped with a norm is called a __normed space__.
 
@@ -171,7 +171,7 @@ As with the canonical inner product, one also has a canonical idea of norm in Eu
 
 Let $E = \mathbb{R}^{n}$. The natural notion of norm is given by,
 
-$$||\mathbf{x}|| = \sqrt{\mathbf{x}^{T}\mathbf{x}} = \sqrt{\langle\mathbf{x},\mathbf{x}\rangle} = \sum_{i=1}^{n}x_{i}^{2}$$
+$$|\mathbf{x}| = \sqrt{\mathbf{x}^{T}\mathbf{x}} = \sqrt{\langle\mathbf{x},\mathbf{x}\rangle} = \sum_{i=1}^{n}x_{i}^{2}$$
 
 Next, we verify the three properties of the norm,
 
@@ -181,19 +181,19 @@ This property is the same as Property 3 of the canonical inner product on $\math
 
 __Property 2__
 
-$$||\lambda\mathbf{x}|| = \sqrt{\sum_{i=1}^{n}(\lambda x_{i})^{2}} = \sqrt{\sum_{i=1}^{n}\lambda^{2}x_{i}^{2}} = |\lambda|\sqrt{\sum_{i=1}^{n}x_{i}^{2}}$$
+$$|\lambda\mathbf{x}| = \sqrt{\sum_{i=1}^{n}(\lambda x_{i})^{2}} = \sqrt{\sum_{i=1}^{n}\lambda^{2}x_{i}^{2}} = |\lambda|\sqrt{\sum_{i=1}^{n}x_{i}^{2}}$$
 
 __Property 3__
 
-$$||\mathbf{x}+\mathbf{y}||^{2} = \sum_{i=1}^{n}(x_{i} + y_{i})^{2} = \sum_{i=1}^{n}x_{i}^{2} + \sum_{i=1}^{n}y_{i}^{2} + 2\sum_{i=1}^{n}x_{i}y_{i} = ||\mathbf{x}||^{2}+||\mathbf{y}||^{2} + 2\mathbf{x}^{T}\mathbf{y}$$
+$$|\mathbf{x}+\mathbf{y}|^{2} = \sum_{i=1}^{n}(x_{i} + y_{i})^{2} = \sum_{i=1}^{n}x_{i}^{2} + \sum_{i=1}^{n}y_{i}^{2} + 2\sum_{i=1}^{n}x_{i}y_{i} = |\mathbf{x}|^{2}+|\mathbf{y}|^{2} + 2\mathbf{x}^{T}\mathbf{y}$$
 
 now, we use a property called Cauchy-Schwarz inequality, that is stated as follows,
 
-$$\mathbf{x}^{T}\mathbf{y} \leq ||\mathbf{x}||\cdot||\mathbf{y}||$$
+$$\mathbf{x}^{T}\mathbf{y} \leq |\mathbf{x}|\cdot|\mathbf{y}|$$
 
 As follows,
 
-$$||\mathbf{x}+\mathbf{y}||^{2} = ||\mathbf{x}||^{2}+||\mathbf{y}||^{2} + 2\mathbf{x}^{T}\mathbf{y} \leq ||\mathbf{x}||^{2}+||\mathbf{y}||^{2} + 2||\mathbf{x}||\cdot||\mathbf{y}|| = (||\mathbf{x}||+||\mathbf{y}||)^{2}$$
+$$|\mathbf{x}+\mathbf{y}|^{2} = |\mathbf{x}|^{2}+|\mathbf{y}|^{2} + 2\mathbf{x}^{T}\mathbf{y} \leq |\mathbf{x}|^{2}+|\mathbf{y}|^{2} + 2|\mathbf{x}|\cdot|\mathbf{y}| = (|\mathbf{x}|+|\mathbf{y}|)^{2}$$
 
 taking the square root on both sides yields the desired inequality.
 
@@ -221,7 +221,7 @@ As before we build our intuition in the case of Euclidean spaces.
 
 Let $E = \mathbb{R}^{n}$. The natural notion of metric is given by,
 
-$$d(\mathbf{x},\mathbf{y}) = ||\mathbf{x}-\mathbf{y}|| = \sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}$$
+$$d(\mathbf{x},\mathbf{y}) = |\mathbf{x}-\mathbf{y}| = \sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}$$
 
 Next, we verify the three properties of the metric,
 
@@ -369,23 +369,23 @@ $$\dfrac{\partial f}{\partial \mathbf{v}} = \lim_{h\rightarrow 0}\dfrac{dg}{dh} 
 
 now, considering the generalized law of cosines, one has that,
 
-$$||\mathbf{a}-\mathbf{b}||^{2} = ||\mathbf{a}||^{2} + ||\mathbf{b}||^{2} - 2||\mathbf{a}||||\mathbf{b}||\cos\theta$$
+$$|\mathbf{a}-\mathbf{b}|^{2} = |\mathbf{a}|^{2} + |\mathbf{b}|^{2} - 2|\mathbf{a}||\mathbf{b}|\cos\theta$$
 
 where $\theta$ is the angle between vectors $\mathbf{a}$ and $\mathbf{b}$. On the other hand,
 
-$$||\mathbf{a}-\mathbf{b}||^{2} = \langle \mathbf{a}-\mathbf{b},\mathbf{a}-\mathbf{b}\rangle = ||\mathbf{a}||^{2} + ||\mathbf{b}|| - 2\langle \mathbf{a}, \mathbf{b}\rangle$$
+$$|\mathbf{a}-\mathbf{b}|^{2} = \langle \mathbf{a}-\mathbf{b},\mathbf{a}-\mathbf{b}\rangle = |\mathbf{a}|^{2} + |\mathbf{b}| - 2\langle \mathbf{a}, \mathbf{b}\rangle$$
 
 equating these two terms yields,
 
-$$\langle \mathbf{a},\mathbf{b}\rangle = ||\mathbf{a}||||\mathbf{b}||\cos\theta$$
+$$\langle \mathbf{a},\mathbf{b}\rangle = |\mathbf{a}||\mathbf{b}|\cos\theta$$
 
 which implies that,
 
-$$\langle \nabla f, \mathbf{v}\rangle = ||\nabla f|||\mathbf{v}||\cos\theta$$
+$$\langle \nabla f, \mathbf{v}\rangle = |\nabla f||\mathbf{v}|\cos\theta$$
 
 assuming, without loss of generality, that $| \mathbf{v} | = 1$, that is, we are simply taking derivatives on the direction of $\mathbf{v}$, we see that the expression,
 
-$$\dfrac{\partial f}{\partial \mathbf{v}} = \langle \nabla f, \mathbf{v}\rangle = ||\nabla f||\cos\theta$$
+$$\dfrac{\partial f}{\partial \mathbf{v}} = \langle \nabla f, \mathbf{v}\rangle = |\nabla f|\cos\theta$$
 
 which is maximum when $\theta = 0$, that is, when $\mathbf{v}$ points in the deirection of $\nabla f$. Thus, the gradient points in the direction of maximum increase in the function $f$.
 
@@ -400,9 +400,11 @@ note that this is only true when the basis vectors $\mathbf{e}_{i}$ do not chang
 ---
 **Example: Graidents in Polar Coordinates**
 
-For a vector $\mathbf{u} = (x, y)$, the polar representation can be written in terms of the length $r = ||\mathbf{u}||$ and the angle $\theta$. The relationship between $(x,y)$ and $(r,\theta)$ is given below,
+For a vector $\mathbf{u} = (x, y)$, the polar representation can be written in terms of the length $r = |\mathbf{u}|$ and the angle $\theta$. The relationship between $(x,y)$ and $(r,\theta)$ is given below,
 
 $$\begin{cases}x=r\cos\theta\\ y=r\sin\theta\end{cases}\implies\begin{cases}r=\sqrt{x^{2}+y^{2}}\\ \tan\theta=y/x\end{cases}$$
+
+note that now, the 
 
 ---
 
