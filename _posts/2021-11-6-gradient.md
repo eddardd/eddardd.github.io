@@ -29,7 +29,7 @@ and,
 
 $$\tan\theta = 1/1 = 1 \implies \theta = \pi/4$$
 
-that is, $\mathbf{u}_{p}$, the same vector but in polar coordinates, is $\mathbf{u}_{p} = (\sqrt{2}, \pi/4)$. Now, it is important to notice how $x$ and $y$ affect the basis vectors. Let $e_{r}$ be the radial basis vector, and $e_{\theta}$ be the angular basis vector. For different points in space we have different vectors, as
+that is, $\mathbf{u}_p$, the same vector but in polar coordinates, is $\mathbf{u}_p = (\sqrt{2}, \pi/4)$. Now, it is important to notice how $x$ and $y$ affect the basis vectors. Let $e_{r}$ be the radial basis vector, and $e_{\theta}$ be the angular basis vector. For different points in space we have different vectors, as
 
 $$e_{r}(x, y) = (\sqrt{x^{2} + y^{2}}, 0),$$
 
