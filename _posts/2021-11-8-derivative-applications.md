@@ -1,7 +1,7 @@
 ---
 title: 'Derivatives -- Applications'
 date: 2021-11-01
-permalink: /posts/calculus/lec2
+permalink: /posts/calculus/undergrad/lec2
 toc: True
 tags:
   - calculus

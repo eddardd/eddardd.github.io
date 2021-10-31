@@ -1,7 +1,7 @@
 ---
 title: 'Derivatives -- Concepts'
 date: 2021-11-01
-permalink: /posts/calculus/lec1
+permalink: /posts/calculus/undergrad/lec1
 toc: True
 tags:
   - calculus

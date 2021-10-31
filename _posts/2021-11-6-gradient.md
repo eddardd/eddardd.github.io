@@ -1,7 +1,7 @@
 ---
 title: 'Gradients in Generalized Coordinates'
 date: 2021-11-01
-permalink: /posts/calculus/lec1
+permalink: /posts/calculus/graduate/lec1
 toc: True
 tags:
   - gradients
