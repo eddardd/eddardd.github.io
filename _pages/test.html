@@ -1,8 +1,76 @@
 ---
 layout: archive
 permalink: /test/
-title: "Test page"
+title: "Blog Posts"
 author_profile: true
 ---
 
-<h1> This is a test </h1>
+<head>
+<style>
+
+.flex-container {
+  color: blue;
+  background-color: yellow;
+  text-decoration: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.horizontal {
+    flex-direction: row;
+    background-color: red;
+    width: 50%;
+}
+
+.vertical {
+    background-color: blue;
+    flex-direction: column;
+}
+
+.flex-item {
+    align-self: center;
+    /* center each flex item along the cross axis */
+    text-align: center;
+    /* horizontally center content within flex item */
+}
+
+.post-title {
+    text-align: justify;
+    padding: 0px;
+    font-size: 24;    
+}
+
+.description {
+    text-align: justify;
+    border-left: 2px solid #000;
+    padding-left: 10px;
+    font-size: 18;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Undergraduate</h2>
+
+<div class="flex-container vertical">
+    <div class="flex-container horizontal">
+        <div class="flex-item"><img src="https://eddardd.github.io/images/PostFigures/Calculus/Surf3d.png"/></div>
+        <div class="flex-item"><p class="description">In this post I will discuss the notion of derivative and how to compute them on different spaces, ranging from the real line, up to Euclidean spaces.</p></div>
+    </div>
+    <div class="flex-container horizontal">
+        <div class="flex-item"><img src="https://eddardd.github.io/images/wip.svg" style="width:50%;"/></div>
+        <div class="flex-item"><p class="description"><b>WIP</b> In this post I will discuss applications of derivatives in optimization, and in signal processing.</p></div>
+    </div>
+    <div class="flex-container horizontal">
+        <div class="flex-item"><img src="https://eddardd.github.io/images/PostFigures/Calculus/CoordinateSystems.png"/></div>
+        <div class="flex-item"><b>WIP</b> In this post I will discuss how Gradients in general coordinates systems through Tensor Calculus.</p></div>
+    </div>
+</div>
+
+<h2>Graduate</h2>
+
+<h3>Research</h3>
+
+</body>
