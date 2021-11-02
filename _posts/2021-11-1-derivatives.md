@@ -259,6 +259,45 @@ which, as you may notice, the final term is $d(\mathbf{x}, \mathbf{z}) + d(\math
 
 ### On the Real Line
 
+On the real line, the definition of derivative is straightforward. Let $x \in \mathbb{R}$ be a number. Define a small perturbation $h \approx 0$. The derivative $\dot{f}$, of $f$ at $x$ is,
+
+$$\dot{f}(x) = \lim_{h \rightarrow 0}\dfrac{f(x+h) - f(x)}{h} = \dfrac{df}{dx}(x)$$
+
+In this case, the derivative of $f$ can be understood as the tangent line that intersects $f$ at exactly one point. You can see this by setting $y = x + h$,
+
+$$\dot{f}(x) \approx \dfrac{f(y) - f(x)}{y - x} \implies f(y) \approx f(x) + \dot{f}(x) (y - x),$$
+
+that is, we are making a linear approximation of $f$ in the vicinity of $x$. The next example shows how this works.
+
+---
+**Example: Derivatives as Linear Approximators**
+
+Let $f(x) = x^{2}$. This function has as derivative,
+
+$$\dot{f}(x) = \lim_{h\rightarrow 0}\dfrac{(x+h)^{2} - x^{2}}{h} = \lim_{h\rightarrow 0}\dfrac{x^{2} + h^{2} + 2xh - x^{2}}{h} = \lim_{h\rightarrow 0}\dfrac{h(h + 2x)}{h}$$
+
+thus,
+
+$$\dot{f}(x) = \lim_{h\rightarrow 0}2x + h = 2x.$$
+
+Let us approximate $f(x) = x^{2}$ using the derivative at $x = 1$. In this case,
+
+$$\tilde{f}(y) = f(1) + \dot{f}(1)(y - 1)$$
+
+substituting the values of $f(1) = 1$ and $\dot{f}(1) = 2$,
+
+$$\tilde{f}(y) = 2y - 1$$
+
+These two functions are shown below. In blue, you have $f(x)$, and the black dotted line corresponds to the linear approximation of $f$.
+
+<p align="center">
+  <img src="https://eddardd.github.io/images/PostFigures/Calculus/TgtLine.png"/>
+</p>
+
+Note that this approximation is only valid near $x = 1$. Especially, the gap $f(x) - \tilde{f}(x)$ is 1 at $x = 2$ and $1$ at $x = 0$. This gap grows with $|h| = |y - x| = |y - 1|$.
+
+---
+
 ### On Euclidean Spaces
 
 #### Curves in Euclidean Spaces
