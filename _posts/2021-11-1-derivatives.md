@@ -154,7 +154,7 @@ A norm is a function on a vector space $E$ that suffices the following propertie
 1. __Nonegativity:__ $\forall \mathbf{u} \in \mathbb{R}^{n}$
 2. __Scalar Multiplication:__
 
-$$\lambda \in \mathbb{R}, \mathbf{u} \in E, \lVert\lambda\mathbf{u}\lVert = |\lambda\lVert|\mathbf{u}\lVert$$
+$$\lambda \in \mathbb{R}, \mathbf{u} \in E, \lVert\lambda\mathbf{u}\lVert = \mid\lambda\lVert\mid\mathbf{u}\lVert$$
 
 3. __Triangle Inequality:__ $\forall \mathbf{u},\mathbf{v} \in E$,
 
@@ -181,7 +181,7 @@ This property is the same as Property 3 of the canonical inner product on $\math
 
 __Property 2__
 
-$$\lVert\lambda\mathbf{x}\lVert = \sqrt{\sum_{i=1}^{n}(\lambda x_{i})^{2}} = \sqrt{\sum_{i=1}^{n}\lambda^{2}x_{i}^{2}} = |\lambda|\sqrt{\sum_{i=1}^{n}x_{i}^{2}}$$
+$$\lVert\lambda\mathbf{x}\lVert = \sqrt{\sum_{i=1}^{n}(\lambda x_{i})^{2}} = \sqrt{\sum_{i=1}^{n}\lambda^{2}x_{i}^{2}} = \mid\lambda\mid\sqrt{\sum_{i=1}^{n}x_{i}^{2}}$$
 
 __Property 3__
 
@@ -294,7 +294,7 @@ These two functions are shown below. In blue, you have $f(x)$, and the black dot
   <img src="https://eddardd.github.io/images/PostFigures/Calculus/TgtLine.png"/>
 </p>
 
-Note that this approximation is only valid near $x = 1$. Especially, the gap $f(x) - \tilde{f}(x)$ is 1 at $x = 2$ and $1$ at $x = 0$. This gap grows with $|h| = |y - x| = |y - 1|$.
+Note that this approximation is only valid near $x = 1$. Especially, the gap $f(x) - \tilde{f}(x)$ is 1 at $x = 2$ and $1$ at $x = 0$. This gap grows with $\midh\mid = \midy - x\mid = \midy - 1\mid$.
 
 ---
 
@@ -353,7 +353,7 @@ as shown below, these vectors are tangent to the curve $\gamma$,
 
 Note that, more generally, $\gamma$ can be a curve in a more general space (not necessarily Euclidean). As follows, we only need a metric space structure, namely, $(E, d)$ for a metric $d$. The __metric derivative__ can be defined as,
 
-$$|\dot{\gamma}|(\lambda) = \lim_{h\rightarrow 0}\dfrac{d(\gamma(\lambda+h),\gamma(\lambda))}{|h|}$$
+$$\mid\dot{\gamma}\mid(\lambda) = \lim_{h\rightarrow 0}\dfrac{d(\gamma(\lambda+h),\gamma(\lambda))}{\mid h\mid}$$
 
 #### Scalar Fields
 
@@ -477,7 +477,7 @@ $$\langle \mathbf{a},\mathbf{b}\rangle = \lVert\mathbf{a}\lVert\lVert\mathbf{b}\
 
 which implies that,
 
-$$\langle \nabla f, \mathbf{v}\rangle = \lVert\nabla f\lVert|\mathbf{v}\lVert\cos\theta$$
+$$\langle \nabla f, \mathbf{v}\rangle = \lVert\nabla f\lVert \lVert\mathbf{v}\lVert\cos\theta$$
 
 assuming, without loss of generality, that $\lVert \mathbf{v} \lVert = 1$, that is, we are simply taking derivatives on the direction of $\mathbf{v}$, we see that the expression,
 
