@@ -8,6 +8,8 @@ tags:
   - graduate level
 ---
 
+In this post I discuss how the Gradient vector can be calculated in generalized coordinate systems.
+
 Note that, previously, we assumed that the gradient is written with respect to the canonical basis in $\mathbb{R}^{n}$. This implies that,
 
 $$\nabla f = \sum_{i=1}^{n}\dfrac{\partial f}{\partial x_{i}}\mathbf{e}_{i}$$

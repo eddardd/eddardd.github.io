@@ -1,5 +1,5 @@
 ---
-title: 'Derivatives -- Concepts'
+title: 'Derivatives -- Introduction'
 date: 2021-11-01
 permalink: /posts/calculus/undergrad/lec1
 toc: True
