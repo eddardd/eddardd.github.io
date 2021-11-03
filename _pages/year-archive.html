@@ -1,22 +1,90 @@
-<!--
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog posts"
+title: "Blog Posts"
 author_profile: true
-redirect_from:
-  - /wordpress/blog-posts/
 ---
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<head>
+<style>
 
--->
+.container-1 {
+    display: flex;
+    width: 75%;
+    /*
+    flex-direction: column;
+    */
+}
+
+.container-1 div {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.box-1 {
+    flex: 1;
+}
+
+.box-2 {
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Undegraduate</h2>
+
+<ul>
+    <li>
+        <div class="container-1">
+            <div class="box-1">
+                <p align="center">
+                    <img src="https://eddardd.github.io/images/PostFigures/Calculus/Surf3d.png" style="width:100%"/>
+                </p>
+            </div>
+            <div class="box-2">
+                <h3><a href="https://eddardd.github.io/posts/calculus/undergrad/lec1">Derivatives: Introduction</a></h3>
+                <p>In this post I will discuss the notion of derivative and how to compute them on different spaces, ranging from the real line, up to Euclidean spaces.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="container-1">
+            <div class="box-1">
+                <p align="center">
+                    <img src="https://eddardd.github.io/images/PostFigures/Calculus/Surf3d.png" style="width:100%"/>
+                </p>
+            </div>
+            <div class="box-2">
+                <h3><a href="https://eddardd.github.io/posts/calculus/undergrad/lec2">Derivatives: Applications</a></h3>
+                <p>In this post I discuss how the Gradient vector can be calculated in generalized coordinate systems.</p>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<h2>Graduate</h2>
+
+<ul>
+    <li>
+        <div class="container-1">
+            <div class="box-1">
+                <p align="center">
+                    <img src="https://eddardd.github.io/images/PostFigures/Calculus/CoordinateSystems.png" style="width:100%;"/>
+                </p>
+            </div>
+            <div class="box-2">
+                <h3><a href="https://eddardd.github.io/posts/calculus/graduate/lec1">Derivatives: Introduction</a></h3>
+                <p>In this post I discuss how the Gradient vector can be calculated in generalized coordinate systems.</p>
+            </div>
+        </div>
+    </li>
+</ul>
+
+</body>
