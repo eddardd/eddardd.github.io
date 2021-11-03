@@ -7,33 +7,58 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
-## Undergraduate Level
+</style>
+</head>
 
-### Derivatives
+<body>
 
----
-**[Lecture 1: Concepts](https://eddardd.github.io/posts/calculus/undergrad/lec1)**
+<h2>Undegraduate</h2>
 
-In this post I will discuss the notion of derivative and how to compute them on different spaces, ranging from the real line, up to Euclidean spaces.
+<ul>
+    <li>
+        <div class="container-1">
+            <div class="box-1">
+                <p align="center">
+                    <img src="https://eddardd.github.io/images/PostFigures/Calculus/Surf3d.png" style="width:100%"/>
+                </p>
+            </div>
+            <div class="box-2">
+                <h3><a href="https://eddardd.github.io/posts/calculus/undergrad/lec1">Derivatives: Introduction</a></h3>
+                <p>In this post I will discuss the notion of derivative and how to compute them on different spaces, ranging from the real line, up to Euclidean spaces.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="container-1">
+            <div class="box-1">
+                <p align="center">
+                    <img src="https://eddardd.github.io/images/PostFigures/Calculus/Surf3d.png" style="width:100%"/>
+                </p>
+            </div>
+            <div class="box-2">
+                <h3><a href="https://eddardd.github.io/posts/calculus/undergrad/lec2">Derivatives: Applications</a></h3>
+                <p>In this post I discuss how the Gradient vector can be calculated in generalized coordinate systems.</p>
+            </div>
+        </div>
+    </li>
+</ul>
 
----
+<h2>Graduate</h2>
 
----
-**[Lecture 2: Applications](https://eddardd.github.io/posts/calculus/undergrad/lec2)**
+<ul>
+    <li>
+        <div class="container-1">
+            <div class="box-1">
+                <p align="center">
+                    <img src="https://eddardd.github.io/images/PostFigures/Calculus/CoordinateSystems.png" style="width:100%;"/>
+                </p>
+            </div>
+            <div class="box-2">
+                <h3><a href="https://eddardd.github.io/posts/calculus/graduate/lec1">Derivatives: Introduction</a></h3>
+                <p>In this post I discuss how the Gradient vector can be calculated in generalized coordinate systems.</p>
+            </div>
+        </div>
+    </li>
+</ul>
 
-__WIP__ In this post I will discuss applications of derivatives in optimization, and in signal processing.
-
----
-
-## Graduate Level
-
-### Differential Geometry
-
----
-**[Gradients in Generalized Coordinates](https://eddardd.github.io/posts/calculus/graduate/lec1)**
-
-__WIP__ In this post I will discuss how Gradients in general coordinates systems through Tensor Calculus.
-
----
-
-## Research
+</body>
