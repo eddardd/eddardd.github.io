@@ -19,10 +19,13 @@ Montesuma, E. F. (2021, April). __Cross-Domain Fault Diagnosis through Optimal T
 
 ### 2021
 
+Montesuma, E. F., Carneiro, L. C., Damasceno, A. R., de Sampaio, J. V. F., Férrer Filho, R. F., Maia, P. H. M., & Oliveira, F. C. (2021, November). __An Empirical Study of Information Retrieval and Machine Reading Comprehension Algorithms for an Online Education Platform__. In Anais do XIII Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana (pp. 217-226). SBC.\
+[[Paper]](https://sol.sbc.org.br/index.php/stil/article/view/17801)
+
 Montesuma, E. F., & Mboula, F. M. N. (2021, June). __Wasserstein Barycenter Transport for Acoustic Adaptation__. In ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 3405-3409).\
 [[IEEE Explore]](https://ieeexplore.ieee.org/document/9414199) [[Code]](https://github.com/eddardd/WBTransport) [[Bibtex]](https://eddardd.github.io/files/Papers/wbt2021icassp.bibtex)
 
-Montesuma, E., & Mboula, F. (2021). __Wasserstein Barycenter for Multi-Source Domain Adaptation__. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 16785-16793).\
+Montesuma, E. F., & Mboula, F. M. N. (2021, June). Wasserstein Barycenter Transport for Acoustic Adaptation. In ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 3405-3409). IEEE.\
 [[The CVF Open Access]](https://openaccess.thecvf.com/content/CVPR2021/html/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html) [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.pdf) [[Supplementary]](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Montesuma_Wasserstein_Barycenter_for_CVPR_2021_supplemental.pdf) [[Code]](https://github.com/eddardd/WBTransport) [[Bibtex]](https://eddardd.github.io/files/Papers/wbt2021cvpr.bibtex)
 
 ### 2020
