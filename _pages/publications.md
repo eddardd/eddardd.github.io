@@ -12,7 +12,7 @@ A summary of my recent work is available at [Google Scholar](https://scholar.goo
 
 ### 2021
 
-Montesuma, E. F. (2021, April). __Cross-Domain Fault Diagnosis through Optimal Transport__ [Bachelor Thesis, Universidade Federal do Ceará].
+Montesuma, E. F. (2021, April). __Cross-Domain Fault Diagnosis through Optimal Transport__ [Bachelor Thesis, Universidade Federal do Ceará].\
 [[Research Gate]](https://www.researchgate.net/publication/354664416_Cross-Domain_Fault_Diagnosis_Through_Optimal_Transport) [[Code]](https://github.com/eddardd/CrossDomainFaultDiagnosis) [[Bibtex]](https://eddardd.github.io/files/Papers/montesuma2021crossdomain.bibtex)
 
 ## Conference Papers
