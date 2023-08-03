@@ -1,10 +1,8 @@
 ---
 layout: archive
-permalink: /none/
-title: "Blog posts"
+permalink: /blog/
+title: "Blog Posts"
 author_profile: true
-redirect_from:
-  - /wordpress/blog-posts/
 ---
 
 In Construction
