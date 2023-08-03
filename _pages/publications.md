@@ -20,7 +20,8 @@ Montesuma, E. F. (2021, April). __Cross-Domain Fault Diagnosis through Optimal T
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @phdthesis{montesuma2021crossdomain,
     author       = {Eduardo Fernandes Montesuma}, 
     title        = {Cross-Domain Fault Diagnosis through Optimal Transport},
@@ -28,8 +29,8 @@ Bibtex
     year         = 2021,
     type         = {Bachelor's Thesis}
 } 
-```
-
+</code>
+</pre>
 </details>
 
 ## Conference Papers
@@ -43,14 +44,16 @@ Fernandes Montesuma, Eduardo, Mboula, F. N., & Souloumiac, A. (2023). __Recent a
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @article{montesuma2023recent,
   title={Recent advances in optimal transport for machine learning},
   author={Montesuma, Eduardo Fernandes and Mboula, Fred Ngole and Souloumiac, Antoine},
   journal={arXiv preprint arXiv:2306.16156},
   year={2023}
 }
-```
+</code>
+</pre>
 
 </details>
 
@@ -61,14 +64,16 @@ Fernandes Montesuma, Eduardo, Ngolè Mboula, Fred Maurice, and Souloumiac, Antoi
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @article{montesuma2023multi,
   title={Multi-Source Domain Adaptation through Dataset Dictionary Learning in Wasserstein Space},
   author={Montesuma, Eduardo Fernandes and Mboula, Fred Ngol{\`e} and Souloumiac, Antoine},
   journal={arXiv preprint arXiv:2307.14953},
   year={2023}
 }
-```
+</code>
+</pre>
 
 </details>
 
@@ -81,7 +86,8 @@ Fernandes Montesuma, Eduardo, Mulas, M., Corona, F., and Mboula, F. M. N. (2022)
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @article{montesuma2022cross,
   title={Cross-domain fault diagnosis through optimal transport for a CSTR process},
   author={Montesuma, Eduardo Fernandes and Mulas, Michela and Corona, Francesco and Mboula, Fred-Maurice Ngole},
@@ -92,7 +98,8 @@ Bibtex
   year={2022},
   publisher={Elsevier}
 }
-```
+</code>
+</pre>
 
 </details>
 
@@ -106,7 +113,8 @@ Montesuma, E. F., Carneiro, L. C., Damasceno, A. R., de Sampaio, J. V. F., Férr
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @inproceedings{montesuma2021empirical,
   title={An Empirical Study of Information Retrieval and Machine Reading Comprehension Algorithms for an Online Education Platform},
   author={Montesuma, Eduardo F and Carneiro, Lucas C and Damasceno, Adson RP and de Sampaio, Joao Victor FT and F{\'e}rrer Filho, Romulo F and Maia, Paulo Henrique M and Oliveira, Francisco CMB},
@@ -115,7 +123,8 @@ Bibtex
   year={2021},
   organization={SBC}
 }
-```
+</code>
+</pre>
 
 </details>
 
@@ -127,7 +136,8 @@ Montesuma, E. F., & Mboula, F. M. N. (2021, June). __Wasserstein Barycenter Tran
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @inproceedings{montesuma2021wasserstein,
   title={Wasserstein Barycenter Transport for Acoustic Adaptation},
   author={Montesuma, Eduardo F and Mboula, Fred-Maurice Ngol{\`e}},
@@ -136,7 +146,8 @@ Bibtex
   year={2021},
   organization={IEEE}
 }
-```
+</code>
+</pre>
 
 </details>
 
@@ -148,7 +159,8 @@ Montesuma, E. F., & Mboula, F. M. N. (2021). __Wasserstein barycenter for multi-
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @inproceedings{montesuma2021wasserstein,
   title={Wasserstein barycenter for multi-source domain adaptation},
   author={Montesuma, Eduardo Fernandes and Mboula, Fred Maurice Ngole},
@@ -156,7 +168,8 @@ Bibtex
   pages={16785--16793},
   year={2021}
 }
-```
+</code>
+</pre>
 
 </details>
 
@@ -170,7 +183,8 @@ Lemarchand, F., Montesuma, E. F., Pelcat, M., & Nogues, E. (2020, May). __OpenDe
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @inproceedings{lemarchand2020opendenoising,
   title={Opendenoising: an extensible benchmark for building comparative studies of image denoisers},
   author={Lemarchand, Florian and Montesuma, Eduardo Fernandes and Pelcat, Maxime and Nogues, Erwan},
@@ -179,7 +193,8 @@ Bibtex
   year={2020},
   organization={IEEE}
 }
-```
+</code>
+</pre>
 
 ### 2017
 
@@ -191,11 +206,13 @@ Montesuma, E., Alencar, L., & Barreto, G. (2017). __Avaliação de Algoritmos de
 Bibtex
 </summary>
 
-```
+<pre>
+<code>
 @inproceedings{montesuma2017avaliaccao,
   title={Avalia{\c{c}}{\~a}o de Algoritmos de Classifica{\c{c}}{\~a}o de Padr{\~o}es na Detec{\c{c}}{\~a}o de C{\^a}ncer do Colo do {\'U}tero},
   author={Montesuma, Eduardo Fernandes and Alencar, Levi Pio Souza Arrais and Barreto, Guilherme de Alencar},
   booktitle={VIII Simpósio de Instrumentação e Imagens Médicas (SIIM) / VII Simpósio de Processamento de Sinais (SPS)},
   year={2017},
 }
-```
+</code>
+</pre>
