@@ -196,6 +196,10 @@ Bibtex
 </code>
 </pre>
 
+</details>
+
+
+
 ### 2017
 
 Montesuma, E., Alencar, L., & Barreto, G. (2017). __Avaliação de Algoritmos de Classificação de Padrões na Detecção de Câncer do Colo do Útero__. In VIII Simpósio de Instrumentação e Imagens Médicas (SIIM) / VII Simpósio de Processamento de Sinais (SPS).\
