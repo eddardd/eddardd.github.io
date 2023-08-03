@@ -8,9 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an undergraduate student at Universidade Federal do Ceará (UFC), in Fortaleza, Brazil. During the period
-of September/2018 to September/2020 I have been a double degree student at Institut National des Sciences Appliquées (INSA)
-de Rennes, obtaining a Master's degree in Electronic Engineering.
-
-Since 2016 I have been engaged in research projects. My research interests are mainly data science, statistical machine learning,
-signal processing (specially image processing), and more recently, optimal transport.
+I am currently a PhD student in Data Science @ Université Paris-Saclay & CEA-List Institute, working on Optimal Transport for Transfer Learning. Since 2016, I have been involved in many Data Science projects, ranging from Signal Processing, Data Mining and Machine Learning. My research interests involve Optimal Transport, Statistical Learning Theory and Dynamical Systems. I have also worked with Image Restoration and Natural Language Processing. As a long term goal, I seek to work on the interplay between (applied) mathematics and machine intelligence.

@@ -9,8 +9,23 @@ redirect_from:
 
 <h2 style="text-align: center;">Education</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
+
 <ul style='padding-left: 0; margin-left: 0; padding-bottom: 5px; margin-bottom: 5px; list-style-type: none; display: flex; justify-content: space-between;'>
-  <li>Bachelor's Degree in Electronic Engineering and Industrial Informatics</li>
+  <li>PhD in Data Science</li>
+  <li>September/2018 - Present</li>
+</ul>
+<ul style='padding: 0; margin: 0; padding-top: 0; padding-bottom: 0; border: 0; outline: 0;
+           margin-top: -20px; margin-bottom: -20px;
+           list-style-type: none; display: flex; justify-content: space-between;'>
+  <li style='padding: 0; margin: 0; padding-top: 0; padding-bottom: 0; border: 0; outline: 0;
+           margin-top: 0; margin-bottom: 0;
+           list-style-type: none; display: flex; justify-content: space-between;'>Université Paris-Saclay & CEA</li>
+</ul>
+__Thesis Title__: Optimal Transport for Domain Adaptation with Applications to Bacteria Stain Classification<br>
+__Advisor__: Antoine Souloumiac & Fred Maurice Ngolè Mboula<br>
+
+<ul style='padding-left: 0; margin-left: 0; padding-bottom: 5px; margin-bottom: 5px; list-style-type: none; display: flex; justify-content: space-between;'>
+  <li>Master's Degree in Electronic Engineering and Industrial Informatics</li>
   <li>September/2018 - August/2020</li>
 </ul>
 <ul style='padding: 0; margin: 0; padding-top: 0; padding-bottom: 0; border: 0; outline: 0;
@@ -24,7 +39,7 @@ redirect_from:
            list-style-type: none; display: flex; justify-content: space-between;'>GPA: 17.26/20.00</li>
 </ul>
 __Thesis Title__: Optimal Transport for Domain Adaptation with Applications to Bacteria Stain Classification<br>
-__Advisor__: Fred-Maurice Ngolè Mboula<br>
+__Advisor__: Fred Maurice Ngolè Mboula<br>
 
 <ul style='padding-left: 0; margin-left: 0; padding-bottom: 5px; margin-bottom: 5px; list-style-type: none; display: flex; justify-content: space-between;'>
   <li>Bachelor's Degree in Computer Engineering</li>
@@ -46,10 +61,18 @@ __Advisor__: Michela Mulas<br>
 <h2 style="text-align: center;">Professional Experience</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
 
+Comissariat pour l'Énergie Atomique et aux Énergies Alternatives, Giff-Sur-Yvette, France
+<ul style='padding-left: 0; margin-left: 0; padding-top: 0px; margin-top: -20px; padding-bottom: 0px; margin-bottom: -20px; list-style-type: none; display: flex; justify-content: space-between;'>
+  <li><b>PhD Student</b></li>
+  <li>October 2021 - Present</li>
+</ul>
+During this internship I was in charge of implementing Optimal Transport for Domain Adaptation methods for a problem involving transfer learning on the classification of bacteria cell stain.<br>
+__Supervisor__: Fred-Maurice Ngolè Mboula
+
 Dell Lead, Fortaleza, Brazil
 <ul style='padding-left: 0; margin-left: 0; padding-top: 0px; margin-top: -20px; padding-bottom: 0px; margin-bottom: -20px; list-style-type: none; display: flex; justify-content: space-between;'>
   <li><b>Scientific Researcher in Data Mining</b></li>
-  <li>April 2021 - Present</li>
+  <li>April 2021 - September 2021</li>
 </ul>
 Responsible for mining textual data and creating data visualizations.<br>
 
@@ -89,10 +112,14 @@ French (B2/Advanced)<br>
 
 <h2 style="text-align: center;">Publications</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
-1. Lemarchand, F., Montesuma, E. F., Pelcat, M., & Nogues, E. (2020, May). __OpenDenoising: an Extensible Benchmark for Building Comparative Studies of Image Denoisers__. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 2648-2652). IEEE. [[Bibtex]](https://eddardd.github.io/files/Papers/opendenoising.bibtex) [[Arxiv]](https://arxiv.org/pdf/1910.08328.pdf) [[Code]](https://github.com/opendenoising/opendenoising-benchmark)
-2. Montesuma, Eduardo F., Levi PSA Alencar, and Guilherme A. Barreto. __Avaliação de Algoritmos de Classificação de Padrões na Detecção de Câncer do Colo do Útero.__ [[Bibtex]](https://eddardd.github.io/files/Papers/siscolo.bibtex) [[Paper]](https://eventos.ufabc.edu.br/siimsps/files/id74.pdf)
-3. Montesuma, E. F., & Mboula, F. M. N. (2021, June). __Wasserstein Barycenter Transport for Acoustic Adaptation__. In ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 3405-3409). [[IEEE Explore]](https://ieeexplore.ieee.org/document/9414199) [[Code]](https://github.com/eddardd/WBTransport)
-4. Montesuma, E., & Mboula, F. (2021). __Wasserstein Barycenter for Multi-Source Domain Adaptation__. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 16785-16793). [[The CVF Open Access]](https://openaccess.thecvf.com/content/CVPR2021/html/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html) [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.pdf) [[Supplementary]](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Montesuma_Wasserstein_Barycenter_for_CVPR_2021_supplemental.pdf) [[Code]](https://github.com/eddardd/WBTransport)
+1. __Fernandes Montesuma, Eduardo__, Levi PSA Alencar, and Guilherme A. Barreto. __Avaliação de Algoritmos de Classificação de Padrões na Detecção de Câncer do Colo do Útero.__ [[Bibtex]](https://eddardd.github.io/files/Papers/siscolo.bibtex) [[Paper]](https://eventos.ufabc.edu.br/siimsps/files/id74.pdf)
+2. Lemarchand, F., __Fernandes Montesuma, Eduardo__, Pelcat, M., & Nogues, E. (2020, May). __OpenDenoising: an Extensible Benchmark for Building Comparative Studies of Image Denoisers__. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 2648-2652). IEEE. [[Bibtex]](https://eddardd.github.io/files/Papers/opendenoising.bibtex) [[Arxiv]](https://arxiv.org/pdf/1910.08328.pdf) [[Code]](https://github.com/opendenoising/opendenoising-benchmark)
+3. __Fernandes Montesuma, Eduardo__, & Mboula, F. M. N. (2021, June). __Wasserstein Barycenter Transport for Acoustic Adaptation__. In ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 3405-3409). [[IEEE Explore]](https://ieeexplore.ieee.org/document/9414199) [[Code]](https://github.com/eddardd/WBTransport)
+4. __Fernandes Montesuma, Eduardo__, & Mboula, F. (2021). __Wasserstein Barycenter for Multi-Source Domain Adaptation__. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 16785-16793). [[The CVF Open Access]](https://openaccess.thecvf.com/content/CVPR2021/html/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.html) [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.pdf) [[Supplementary]](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Montesuma_Wasserstein_Barycenter_for_CVPR_2021_supplemental.pdf) [[Code]](https://github.com/eddardd/WBTransport)
+5. __Fernandes Montesuma, Eduardo__, et al. "An Empirical Study of Information Retrieval and Machine Reading Comprehension Algorithms for an Online Education Platform." Anais do XIII Simpósio Brasileiro de Tecnologia da Informação e da Linguagem Humana. SBC, 2021. [[Paper]](https://sol.sbc.org.br/index.php/stil/article/view/17801)
+6. Fernandes Montesuma, Eduardo, Mulas, M., Corona, F., and Mboula, F. M. N. (2022). Cross-domain fault diagnosis through optimal transport for a CSTR process. IFAC-PapersOnLine, 55(7), 946-951. [[Paper]]() [[Code]](https://github.com/eddardd/CrossDomainFaultDiagnosis)
+7. __Fernandes Montesuma, Eduardo__, Mboula, F. N., & Souloumiac, A. (2023). Recent advances in optimal transport for machine learning. arXiv preprint arXiv:2306.16156. [[Paper]](https://arxiv.org/pdf/2306.16156.pdf)
+8. __Fernandes Montesuma, Eduardo__, Ngolè Mboula, Fred Maurice, and Souloumiac, Antoine (2023). Multi-Source Domain Adaptation through Dataset Dictionary Learning in Wasserstein Space. 26th European Conference on Artificial Intelligence [[Paper]](https://arxiv.org/pdf/2307.14953.pdf)
   
 <h2 style="text-align: center;">Scholarships and Awards</h2>
 <hr style="height:2px;border-width:0;color:gray;background-color:gray"> 
