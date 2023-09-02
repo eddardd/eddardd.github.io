@@ -8,12 +8,11 @@ toc: true
 
 A summary of my recent work is available at [Google Scholar](https://scholar.google.com.br/citations?user=elSROdcAAAAJ&hl=en).
 
-## Thesis
+## Papers
 
-### 2021
+### 2023
 
-Montesuma, E. F. (2021, April). __Cross-Domain Fault Diagnosis through Optimal Transport__ [Bachelor Thesis, Universidade Federal do Ceará].\
-[[Research Gate]](https://www.researchgate.net/publication/354664416_Cross-Domain_Fault_Diagnosis_Through_Optimal_Transport) [[Code]](https://github.com/eddardd/CrossDomainFaultDiagnosis)
+Fernandes Montesuma, Eduardo, Ngolè Mboula, Fred Maurice, Corona, Francesco, and Souloumiac, Antoine (2023). __Multi-Source Domain Adaptation for Cross-Domain Fault Diagnosis of Chemical Processes__. arXiv:2308.11247 [[Paper]](https://arxiv.org/pdf/2308.11247.pdf) [[Code]](https://github.com/eddardd/demo-dadil)
 
 <details>
 <summary>
@@ -22,22 +21,18 @@ Bibtex
 
 <pre>
 <code>
-@phdthesis{montesuma2021crossdomain,
-    author       = {Eduardo Fernandes Montesuma}, 
-    title        = {Cross-Domain Fault Diagnosis through Optimal Transport},
-    school       = {Universidade Federal do Ceará},
-    year         = 2021,
-    type         = {Bachelor's Thesis}
-} 
+@article{montesuma2023multi,
+  title={Multi-Source Domain Adaptation for Cross-Domain Fault Diagnosis of Chemical Processes},
+  author={Montesuma, Eduardo Fernandes and Mulas, Michela and Mboula, Fred Ngol{\`e} and Corona, Francesco and Souloumiac, Antoine},
+  journal={arXiv preprint arXiv:2308.11247},
+  year={2023}
+}
 </code>
 </pre>
+
 </details>
 
-## Conference Papers
-
-### 2023
-
-Fernandes Montesuma, Eduardo, Mboula, F. N., & Souloumiac, A. (2023). __Recent advances in optimal transport for machine learning__. arXiv preprint arXiv:2306.16156. [[Paper]](https://arxiv.org/pdf/2306.16156.pdf)
+Fernandes Montesuma, Eduardo, Mboula, F. N., & Souloumiac, A. (2023). __Recent advances in optimal transport for machine learning__. arXiv:2306.16156. [[Paper]](https://arxiv.org/pdf/2306.16156.pdf)
 
 <details>
 <summary>
@@ -57,7 +52,7 @@ Bibtex
 
 </details>
 
-Fernandes Montesuma, Eduardo, Ngolè Mboula, Fred Maurice, and Souloumiac, Antoine (2023). __Multi-Source Domain Adaptation through Dataset Dictionary Learning in Wasserstein Space__. 26th European Conference on Artificial Intelligence [[Paper]](https://arxiv.org/pdf/2307.14953.pdf)
+Fernandes Montesuma, Eduardo, Ngolè Mboula, Fred Maurice, and Souloumiac, Antoine (2023). __Multi-Source Domain Adaptation through Dataset Dictionary Learning in Wasserstein Space__. 26th European Conference on Artificial Intelligence [[Paper]](https://arxiv.org/pdf/2307.14953.pdf) [[Code]](https://github.com/eddardd/demo-dadil)
 
 <details>
 <summary>
@@ -220,3 +215,28 @@ Bibtex
 }
 </code>
 </pre>
+
+## Thesis
+
+### 2021
+
+Montesuma, E. F. (2021, April). __Cross-Domain Fault Diagnosis through Optimal Transport__ [Bachelor Thesis, Universidade Federal do Ceará].\
+[[Research Gate]](https://www.researchgate.net/publication/354664416_Cross-Domain_Fault_Diagnosis_Through_Optimal_Transport) [[Code]](https://github.com/eddardd/CrossDomainFaultDiagnosis)
+
+<details>
+<summary>
+Bibtex
+</summary>
+
+<pre>
+<code>
+@phdthesis{montesuma2021crossdomain,
+    author       = {Eduardo Fernandes Montesuma}, 
+    title        = {Cross-Domain Fault Diagnosis through Optimal Transport},
+    school       = {Universidade Federal do Ceará},
+    year         = 2021,
+    type         = {Bachelor's Thesis}
+} 
+</code>
+</pre>
+</details>
