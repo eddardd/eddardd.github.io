@@ -6,9 +6,13 @@ author_profile: true
 toc: true
 ---
 
-## Lecture on Introductory Optimal Transport for Machine Learning (05/03/2020)
+## European Conference on Artificial Intelligence (30/09/2023 to 04/10/2023)
 
-A link to the presentation slides may be found [here](https://eddardd.github.io/IntroductoryOTML/). The code used for the figures and examples can be found [here](https://github.com/eddardd/IntroductoryOTML)
+At ECAI'23, I had the opportunity to give 2 presentations,
+
+- __Multi-Source Domain Adaptation through Wasserstein Barycenters__: A 5 minutes presentation about my thesis subject on the Doctoral Consortium. [[Presentation]](/files/Presentations/ECAI23_DC.pdf)
+
+- __Multi-Source Domain Adaptation through Dataset Dictionary Learning in a Wasserstein Space__: A 15 minutes presentation about my paper on Dataset Dictionary Learning. [[Presentation]](/files/Presentations/ECAI23_DaDiL.pdf)
 
 ## Semana da Tecnologia da Informação e Comunicação 2020 (02/12/2020 and 03/12/2020)
 
