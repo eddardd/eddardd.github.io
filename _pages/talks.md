@@ -6,7 +6,11 @@ author_profile: true
 toc: true
 ---
 
-## European Conference on Artificial Intelligence (30/09/2023 to 04/10/2023)
+## Journée de Statistiques de la SFdS (2024)
+
+At JdS'24, I presented the paper ["Transport optimal pour l'adaptation de domaines à travers des mélanges Gaussiens" (French)](https://jds2024.sciencesconf.org/file/1080951), ["Optimal Transport for Domain Adaptation through Gaussian Mixture Models" (English)](https://arxiv.org/abs/2403.13847). The presentation (in french) [is available here](/files/Presentations/jds24.pdf)
+
+## European Conference on Artificial Intelligence (2023)
 
 At ECAI'23, I had the opportunity to give 2 presentations,
 
