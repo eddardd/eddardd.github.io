@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI Researcher @ <a href='https://sigmanova.ai'>Sigma Nova</a>. PhD, Université Paris-Saclay.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Paris, France</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an AI researcher specializing in optimal transport, domain adaptation, and transfer learning. I completed my PhD in Data Science at Université Paris-Saclay in 2024, where I focused on multi-source domain adaptation through Wasserstein barycenters. Prior to that, I earned a Master's degree in Electronic Engineering from INSA de Rennes and a Bachelor's in Computer Engineering from Universidade Federal do Ceará in Brazil. You can take a look on my recent publications at [Google Scholar](https://scholar.google.com/citations?user=elSROdcAAAAJ).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I work as an AI researcher at Sigma Nova since August 2025, focusing on fine-tuning and adapting large foundation models. My research bridges theoretical advances in optimal transport with practical machine learning applications, particularly in scenarios where models need to adapt across different domains or data distributions. 

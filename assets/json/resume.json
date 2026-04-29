@@ -1,200 +1,246 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Eduardo Fernandes Montesuma",
+    "label": "AI Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "edumontesuma@gmail.com",
+    "phone": "",
+    "url": "https://github.com/eddardd",
+    "summary": "AI researcher specializing in optimal transport, domain adaptation, and transfer learning with expertise in fine-tuning and adapting large foundation models.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "53 Rue des Fauvelles",
+      "postalCode": "",
+      "city": "Courbevoie",
+      "countryCode": "FR",
+      "region": "France"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "eddardd",
+        "url": "https://github.com/eddardd"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Sigma Nova",
+      "position": "AI Researcher",
+      "url": "",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "Conducting research primarily on the fine-tuning and adaptation of large pre-trained foundation models.",
+      "highlights": ["Foundation Models", "Model Fine-tuning", "Model Adaptation"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "GetVocal",
+      "position": "Applied AI Researcher",
+      "url": "",
+      "startDate": "2024-10-01",
+      "endDate": "2025-07-01",
+      "summary": "R&D of conversational agents, focusing on automatic speech recognition, large language models and speech synthesis.",
+      "highlights": ["Conversational AI", "Speech Recognition", "Large Language Models", "Speech Synthesis"]
+    },
+    {
+      "name": "Commissariat pour l'Énergie Atomique",
+      "position": "PhD Student",
+      "url": "",
+      "startDate": "2021-10-01",
+      "endDate": "2024-10-01",
+      "summary": "Studied the contributions of Optimal Transport for Machine Learning, Transfer Learning and Domain Adaptation.",
+      "highlights": ["Optimal Transport", "Transfer Learning", "Domain Adaptation", "Machine Learning"]
+    },
+    {
+      "name": "Dell Lead",
+      "position": "Scientific Researcher in Data Mining",
+      "url": "",
+      "startDate": "2021-04-01",
+      "endDate": "2021-09-01",
+      "summary": "Mining textual data, building visualizations and exploring strategies for machine reading comprehension.",
+      "highlights": ["Data Mining", "Text Analysis", "Machine Reading Comprehension", "Data Visualization"]
+    },
+    {
+      "name": "Commissariat pour l'Énergie Atomique",
+      "position": "Research Intern in Artificial Intelligence",
+      "url": "",
+      "startDate": "2020-03-01",
+      "endDate": "2020-08-01",
+      "summary": "Implementing Optimal Transport for Domain Adaptation methods for transfer learning on bacteria cell stain classification.",
+      "highlights": ["Optimal Transport", "Domain Adaptation", "Transfer Learning", "Computer Vision"]
+    },
+    {
+      "name": "Institut d'Électronique et Télécommunications de Rennes",
+      "position": "Research Intern in Deep Learning for Image Restoration",
+      "url": "",
+      "startDate": "2019-05-01",
+      "endDate": "2019-09-01",
+      "summary": "Implementing software for comparing image restoration methods, with focus on deep neural network methods. Open-source solution hosted on Github.",
+      "highlights": ["Deep Learning", "Image Restoration", "Open Source Software", "Neural Networks"]
+    },
+    {
+      "name": "Universidade Federal do Ceará",
+      "position": "Research Intern in Pattern Recognition",
+      "url": "",
+      "startDate": "2016-08-01",
+      "endDate": "2017-08-01",
+      "summary": "Working on Computer Vision for Detection and Identification of Cervix Diseases (SISCOLO) project, studying and implementing classifiers for identifying cancer on cervix cells.",
+      "highlights": ["Computer Vision", "Pattern Recognition", "Medical Imaging", "Cancer Detection"]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Université Paris-Saclay",
+      "location": "Paris, Île-de-France, France",
+      "url": "",
+      "area": "Data Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2021-10-01",
+      "endDate": "2024-10-01",
+      "score": "",
+      "courses": ["Multi-Source Domain Adaptation through Wasserstein Barycenters"]
+    },
+    {
+      "institution": "INSA de Rennes",
+      "location": "Rennes, Bretagne, France",
+      "url": "",
+      "area": "Electronic Engineering and Industrial Informatics",
+      "studyType": "Master's Degree",
+      "startDate": "2018-09-01",
+      "endDate": "2020-08-01",
+      "score": "14.80/20.00",
+      "courses": ["Optimal Transport for Domain Adaptation with Applications to Bacteria Stain Classification"]
+    },
+    {
+      "institution": "Universidade Federal do Ceará",
+      "location": "Fortaleza, Ceará, Brazil",
+      "url": "",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2015-01-01",
+      "endDate": "2021-04-01",
+      "score": "8.94/10.00",
+      "courses": ["Cross-Domain Fault Diagnosis through Optimal Transport"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "BRAFITEC/France program",
+      "date": "",
+      "awarder": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)",
+      "url": "",
+      "summary": "Scholarship for international exchange program between Brazil and France."
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Recent advances in optimal transport for machine learning",
+      "publisher": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "releaseDate": "2024-01-01",
+      "url": "https://arxiv.org/abs/2306.16156",
+      "summary": "Recently, Optimal Transport has been proposed as a probabilistic framework in Machine Learning for comparing and manipulating probability distributions. This is rooted in its rich history and theory, and has offered new solutions to different problems in machine learning, such as generative modeling and transfer learning. In this survey we explore contributions of Optimal Transport for Machine Learning over the period 2012 -- 2023, focusing on four sub-fields of Machine Learning: supervised, unsupervised, transfer and reinforcement learning. We further highlight the recent development in computational Optimal Transport and its extensions, such as partial, unbalanced, Gromov and Neural Optimal Transport, and its interplay with Machine Learning practice."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Wasserstein Barycenter for Multi-Source Domain Adaptation",
+      "publisher": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "releaseDate": "2021-01-01",
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Montesuma_Wasserstein_Barycenter_for_Multi-Source_Domain_Adaptation_CVPR_2021_paper.pdf",
+      "summary": "Multi-source domain adaptation is a key technique that allows a model to be trained on data coming from various probability distribution. To overcome the challenges posed by this learning scenario, we propose a method for constructing an intermediate domain between sources and target domain, the Wasserstein Barycenter Transport (WBT). This method relies on the barycenter on Wasserstein spaces for aggregating the source probability distributions. Once the sources have been aggregated, they are transported to the target domain using standard Optimal Transport for Domain Adaptation framework. Additionally, we revisit previous single-source domain adaptation tasks in the context of multi-source scenario. In particular, we apply our algorithm to object and face recognition datasets. Moreover, to diversify the range of applications, we also examine the tasks of music genre recognition and music-speech discrimination. The experiments show that our method has similar performance with the existing state-of-the-art."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Multi-Source Domain Adaptation Through Dataset Dictionary Learning in Wasserstein Space",
+      "publisher": "26th European Conference on Artificial Intelligence",
+      "releaseDate": "2023-01-01",
+      "url": "https://arxiv.org/abs/2307.14953",
+      "summary": "This paper seeks to solve Multi-Source Domain Adaptation (MSDA), which aims to mitigate data distribution shifts when transferring knowledge from multiple labeled source domains to an unlabeled target domain. We propose a novel MSDA framework based on dictionary learning and optimal transport. We interpret each domain in MSDA as an empirical distribution. As such, we express each domain as a Wasserstein barycenter of dictionary atoms, which are empirical distributions. We propose a novel algorithm, DaDiL, for learning via mini-batches: (i) atom distributions; (ii) a matrix of barycentric coordinates. Based on our dictionary, we propose two novel methods for MSDA: DaDil-R, based on the reconstruction of labeled samples in the target domain, and DaDiL-E, based on the ensembling of classifiers learned on atom distributions. We evaluate our methods in 3 benchmarks: Caltech-Office, Office 31, and CRWU, where we improved previous state-of-the-art by 3.15%, 2.29%, and 7.71% in classification performance. Finally, we show that interpolations in the Wasserstein hull of learned atoms provide data that can generalize to the target domain."
+    },
+    {
+      "name": "Lighter, better, faster multi-source domain adaptation with gaussian mixture models and optimal transport",
+      "publisher": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+      "releaseDate": "2024-01-01",
+      "url": "https://arxiv.org/abs/2404.10261",
+      "summary": "In this paper, we tackle Multi-Source Domain Adaptation (MSDA), a task in transfer learning where one adapts multiple heterogeneous, labeled source probability measures towards a different, unlabeled target measure. We propose a novel framework for MSDA, based on Optimal Transport (OT) and Gaussian Mixture Models (GMMs). Our framework has two key advantages. First, OT between GMMs can be solved efficiently via linear programming. Second, it provides a convenient model for supervised learning, especially classification, as components in the GMM can be associated with existing classes. Based on the GMM-OT problem, we propose a novel technique for calculating barycenters of GMMs. Based on this novel algorithm, we propose two new strategies for MSDA: GMM-Wasserstein Barycenter Transport (WBT) and GMM-Dataset Dictionary Learning (DaDiL). We empirically evaluate our proposed methods on four benchmarks in image classification and fault diagnosis, showing that we improve over the prior art while being faster and involving fewer parameters. Our code is publicly available at https://github.com/eddardd/gmm_msda"
+    },
+    {
+      "name": "Optimal Transport for Domain Adaptation through Gaussian Mixture Models",
+      "publisher": "Transactions on Machine Learning Research",
+      "releaseDate": "2025-01-01",
+      "url": "https://arxiv.org/abs/2403.13847",
+      "summary": "Machine learning systems operate under the assumption that training and test data are sampled from a fixed probability distribution. However, this assumptions is rarely verified in practice, as the conditions upon which data was acquired are likely to change. In this context, the adaptation of the unsupervised domain requires minimal access to the data of the new conditions for learning models robust to changes in the data distribution. Optimal transport is a theoretically grounded tool for analyzing changes in distribution, especially as it allows the mapping between domains. However, these methods are usually computationally expensive as their complexity scales cubically with the number of samples. In this work, we explore optimal transport between Gaussian Mixture Models (GMMs), which is conveniently written in terms of the components of source and target GMMs. We experiment with 9 benchmarks, with a total of 85 adaptation tasks, showing that our methods are more efficient than previous shallow domain adaptation methods, and they scale well with number of samples n and dimensions d."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Machine Learning",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Optimal Transport",
+        "Domain Adaptation",
+        "Transfer Learning",
+        "Foundation Models",
+        "Deep Learning"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "TensorFlow/Keras",
+        "PyTorch",
+        "Scikit-Learn",
+        "PythonOT",
+        "Matlab"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Portuguese",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
+      "language": "French",
+      "fluency": "B2",
+      "icon": ""
+    },
+    {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "B2",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "A2",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-robot",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Optimal Transport",
+        "Domain Adaptation",
+        "Transfer Learning",
+        "Foundation Models",
+        "Machine Learning"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "OpenDenoising",
+      "summary": "An extensible benchmark for building comparative studies of image denoisers with focus on deep neural network methods.",
+      "highlights": ["Open Source", "Image Restoration", "Deep Learning", "Benchmarking"],
+      "startDate": "2019-05-01",
+      "endDate": "2020-01-01",
+      "url": "https://github.com/eddardd"
     }
   ]
 }

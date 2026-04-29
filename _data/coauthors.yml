@@ -1,34 +1,38 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Co-author disambiguation for jekyll-scholar.
+# Format:
+#   "lastname":
+#     - firstname: ["Full Name", "Initials", "Other variants"]
+#       url: https://...    # optional — adds a hyperlink on the author name
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Mboula":
+  - firstname:
+      [
+        "Fred Maurice Ngolè",
+        "Fred-Maurice Ngolè",
+        "Fred Ngolè",
+        "Fred Maurice Ngole",
+        "F. M. N.",
+        "F. N.",
+        "F. Ngolè",
+      ]
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Souloumiac":
+  - firstname: ["Antoine", "A."]
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Castellon":
+  - firstname: ["Fabiola Espinoza", "F. E.", "F."]
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Espinoza Castellon":
+  - firstname: ["Fabiola", "F."]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Eufrazio":
+  - firstname: ["Rafael Pereira", "Rafael P.", "R. P."]
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Cavalcante":
+  - firstname: ["Charles Casimiro", "Charles C.", "C. C."]
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Bendou":
+  - firstname: ["Yassir", "Y."]
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Gartrell":
+  - firstname: ["Mike", "M."]

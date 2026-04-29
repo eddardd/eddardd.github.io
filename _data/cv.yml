@@ -2,96 +2,115 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Eduardo Fernandes Montesuma
     - name: Languages
-      value: English, German
+      value: Portuguese (native), French (B2), English (B2), Spanish (A2)
+    - name: Expertise
+      value: Optimal Transport, Domain Adaptation, Transfer Learning, Foundation Models
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Data Science
+      institution: Université Paris-Saclay, Paris, France
+      year: 2021 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Thesis: Multi-Source Domain Adaptation through Wasserstein Barycenters"
+        - "Director: Antoine Souloumiac, PhD"
+        - "Advisor: Fred Maurice Ngolè Mboula, PhD"
+    - title: Master's Degree in Electronic Engineering and Industrial Informatics
+      institution: INSA de Rennes, Rennes, France
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA 14.80 / 20.00"
+        - "Thesis: Optimal Transport for Domain Adaptation with Applications to Bacteria Stain Classification"
+        - "Advisor: Fred-Maurice Ngolè Mboula, PhD"
+    - title: Bachelor's Degree in Computer Engineering
+      institution: Universidade Federal do Ceará, Fortaleza, Brazil
+      year: 2015 - 2021
+      description:
+        - "GPA 8.94 / 10.00"
+        - "Thesis: Cross-Domain Fault Diagnosis through Optimal Transport"
+        - "Advisor: Michela Mulas, PhD"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI Researcher
+      institution: Sigma Nova, Paris, France
+      year: 2025 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Research on fine-tuning and adaptation of large pre-trained foundation models.
+    - title: Applied AI Researcher
+      institution: GetVocal, Paris, France
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - R&D of conversational agents — automatic speech recognition, large language models, and speech synthesis.
+    - title: PhD Student
+      institution: Commissariat à l'Énergie Atomique (CEA), Saclay, France
+      year: 2021 - 2024
       description:
+        - Studied the contributions of Optimal Transport to Machine Learning, Transfer Learning, and Domain Adaptation.
+    - title: Scientific Researcher in Data Mining
+      institution: Dell Lead, Fortaleza, Brazil
+      year: 2021
+      description:
+        - Mining textual data, building visualizations, and exploring strategies for machine reading comprehension.
+    - title: Research Intern in Artificial Intelligence
+      institution: Commissariat à l'Énergie Atomique (CEA), Saclay, France
+      year: 2020
+      description:
+        - Implemented Optimal Transport for Domain Adaptation methods for transfer learning on bacteria cell stain classification.
+    - title: Research Intern in Deep Learning for Image Restoration
+      institution: Institut d'Électronique et Télécommunications de Rennes (IETR), Rennes, France
+      year: 2019
+      description:
+        - Implemented an open-source benchmark for comparing image restoration methods, with focus on deep neural networks.
+    - title: Research Intern in Pattern Recognition
+      institution: Universidade Federal do Ceará, Fortaleza, Brazil
+      year: 2016 - 2017
+      description:
+        - SISCOLO project — studying and implementing classifiers for cervical cancer detection on cell images.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Python for Data Science
+      institution: École Polytechnique, Palaiseau, France
+      year: 2023 - 2024
+      description:
+        - Introductory course for the Master's in Applied Maths and Statistics (first term, 2023–2024).
+    - title: Introduction to Control Theory
+      institution: Universidade Federal do Ceará, Fortaleza, Brazil
+      year: 2018
+      description:
+        - Problem-solution lectures and special topics on control systems, including Model Predictive Control.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/eddardd/gmm_msda">gmm_msda</a>
+      year: 2024
+      description: Lighter, better, faster multi-source domain adaptation with Gaussian Mixture Models and Optimal Transport (ECML-PKDD 2024).
+    - title: <a href="https://github.com/eddardd/gmm-otda">gmm-otda</a>
+      year: 2024
+      description: Optimal Transport for Domain Adaptation through Gaussian Mixture Models (TMLR 2025).
+    - title: <a href="https://github.com/eddardd/demo-dadil">demo-dadil</a>
+      year: 2023
+      description: Multi-Source Domain Adaptation through Dataset Dictionary Learning in Wasserstein Space (ECAI 2023).
+    - title: <a href="https://github.com/eddardd/examples-ot">examples-ot</a>
+      year: 2024
+      description: Code accompanying the TPAMI 2024 survey "Recent Advances in Optimal Transport for Machine Learning."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - BRAFITEC/France scholarship — Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), for the Brazil–France academic exchange program.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Programming
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Languages:</u> Python, Matlab.
+    - <u>ML / scientific:</u> PyTorch, TensorFlow / Keras, Scikit-Learn, PythonOT (POT), Simulink.
