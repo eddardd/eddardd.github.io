@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Data Science
+    - title: PhD in Mathematical Computer Science
       institution: Université Paris-Saclay, Paris, France
       year: 2021 - 2024
       description:
@@ -40,7 +40,7 @@
       institution: Sigma Nova, Paris, France
       year: 2025 - present
       description:
-        - Research on fine-tuning and adaptation of large pre-trained foundation models.
+        - Pre-training, fine-tuning, and transfer learning of large-scale foundation models for neuroscience and time series forecasting.
     - title: Applied AI Researcher
       institution: GetVocal, Paris, France
       year: 2024 - 2025
@@ -89,6 +89,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/PythonOT/POT">POT — Python Optimal Transport</a>
+      year: 2024
+      description: Contributor to the reference open-source library for optimal transport in Python (v0.9.5).
     - title: <a href="https://github.com/eddardd/gmm_msda">gmm_msda</a>
       year: 2024
       description: Lighter, better, faster multi-source domain adaptation with Gaussian Mixture Models and Optimal Transport (ECML-PKDD 2024).
