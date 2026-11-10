@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-tutorials",
+          title: "tutorials",
+          description: "Expanding our optimal transport survey, one piece at a time.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/tutorials/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
@@ -32,12 +39,23 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Education, research and teaching experience, and open-source work. A PDF version is available above.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-optimal-transport-for-domain-adaptation",
+        },{id: "post-the-sliced-wasserstein-distance",
+        
+          title: "The Sliced Wasserstein Distance",
+        
+        description: "Projecting to one dimension, where transport is a sort — and what that costs you in bias.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/tutorials/computational-ot/sliced-wasserstein-distance/";
+          
+        },
+      },{id: "post-optimal-transport-for-domain-adaptation",
         
           title: "Optimal Transport for Domain Adaptation",
         
@@ -69,11 +87,20 @@ ninja.data = [{
           section: "News",},{id: "news-optimal-transport-for-domain-adaptation-through-gaussian-mixture-models-is-now-published-in-transactions-on-machine-learning-research-tmlr",
           title: '📄 Optimal Transport for Domain Adaptation through Gaussian Mixture Models is now published...',
           description: "",
-          section: "News",},{id: "news-started-a-new-role-as-ai-researcher-at-sigma-nova-working-on-the-fine-tuning-and-adaptation-of-large-pre-trained-foundation-models",
+          section: "News",},{id: "news-started-a-new-role-as-ai-researcher-at-sigma-nova-working-on-pre-training-fine-tuning-and-transfer-learning-of-large-scale-foundation-models-for-neuroscience-and-time-series-forecasting",
           title: '🚀 Started a new role as AI Researcher at Sigma Nova, working on...',
           description: "",
           section: "News",},{id: "news-our-paper-rebapl-repulsive-bayesian-prompt-learning-was-accepted-at-cvpr-2026",
           title: '📄 Our paper ReBaPL: Repulsive Bayesian Prompt Learning was accepted at CVPR 2026....',
+          description: "",
+          section: "News",},{id: "news-wasserstein-gradient-flows-for-scalable-and-regularized-barycenter-computation-accepted-at-uai-2026",
+          title: '📄 Wasserstein Gradient Flows for Scalable and Regularized Barycenter Computation accepted at UAI...',
+          description: "",
+          section: "News",},{id: "news-nonlinear-dimensionality-reduction-through-optimal-transport-between-incomparable-spaces-with-rafael-pereira-eufrazio-and-charles-casimiro-cavalcante-is-published-in-information-geometry",
+          title: '📄 Nonlinear Dimensionality Reduction through Optimal Transport between Incomparable Spaces, with Rafael Pereira...',
+          description: "",
+          section: "News",},{id: "news-gromov-wasserstein-distillation-for-inductive-multi-view-embedding-with-rafael-pereira-eufrazio-and-charles-casimiro-cavalcante-accepted-at-the-gddl-workshop-at-neurips-2026",
+          title: '📄 Gromov-Wasserstein Distillation for Inductive Multi-View Embedding, with Rafael Pereira Eufrazio and Charles...',
           description: "",
           section: "News",},{
         id: 'social-email',
