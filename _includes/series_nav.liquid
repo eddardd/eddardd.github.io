@@ -1,0 +1,76 @@
+{% comment %}
+  Navigation for one page of a multi-part tutorial series.
+
+  Driven entirely by _data/tutorials.yml. Include it from a post whose front
+  matter carries `series` (matching site.data.tutorials.series.id) and `slug`.
+
+  Reading order is the flattened sequence: sections by `order`, and within each
+  section its tutorials by `order`. Neighbours still marked `planned` render as
+  plain text rather than links, so navigation is correct before the whole
+  series exists.
+{% endcomment %}
+
+{% assign series = site.data.tutorials.series %}
+{% if include.series == series.id %}
+
+  {%- comment -%} Flatten sections x tutorials into one reading order. {%- endcomment -%}
+  {% assign ordered = '' | split: '' %}
+  {% assign sections = site.data.tutorials.sections | sort: 'order' %}
+  {% for s in sections %}
+    {% assign in_section = site.data.tutorials.tutorials | where: 'section', s.id | sort: 'order' %}
+    {% assign ordered = ordered | concat: in_section %}
+  {% endfor %}
+
+  {% assign total = ordered | size %}
+  {% assign prev_item = null %}
+  {% assign next_item = null %}
+  {% assign position = 0 %}
+  {% assign current_section = null %}
+
+  {% for t in ordered %}
+    {% if t.slug == include.slug %}
+      {% assign position = forloop.index %}
+      {% assign idx = forloop.index0 %}
+      {% if idx > 0 %}
+        {% assign prev_idx = idx | minus: 1 %}
+        {% assign prev_item = ordered[prev_idx] %}
+      {% endif %}
+      {% unless forloop.last %}
+        {% assign next_item = ordered[forloop.index] %}
+      {% endunless %}
+      {% assign matches = sections | where: 'id', t.section %}
+      {% assign current_section = matches.first %}
+    {% endif %}
+  {% endfor %}
+
+  <nav class="series-nav" aria-label="Tutorial series navigation">
+    <p class="series-nav-meta">
+      <a href="{{ '/tutorials/' | relative_url }}">{{ series.title }}</a>
+      {% if current_section %}
+        &nbsp;&rsaquo;&nbsp; {{ current_section.title }}
+      {% endif %}
+      &nbsp;&middot;&nbsp; {{ position }} of {{ total }}
+    </p>
+    <p class="series-nav-links">
+      {% if prev_item %}
+        {% capture prev_url %}/tutorials/{{ prev_item.section }}/{{ prev_item.slug }}/{% endcapture %}
+        {% if prev_item.status == 'published' %}
+          <a href="{{ prev_url | relative_url }}">&larr; {{ prev_item.title }}</a>
+        {% else %}
+          <span class="series-nav-disabled">&larr; {{ prev_item.title }}</span>
+        {% endif %}
+      {% endif %}
+      {% if prev_item and next_item %}
+        &nbsp;&middot;&nbsp;
+      {% endif %}
+      {% if next_item %}
+        {% capture next_url %}/tutorials/{{ next_item.section }}/{{ next_item.slug }}/{% endcapture %}
+        {% if next_item.status == 'published' %}
+          <a href="{{ next_url | relative_url }}">{{ next_item.title }} &rarr;</a>
+        {% else %}
+          <span class="series-nav-disabled">{{ next_item.title }} &rarr;</span>
+        {% endif %}
+      {% endif %}
+    </p>
+  </nav>
+{% endif %}

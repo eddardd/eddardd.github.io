@@ -1423,3 +1423,113 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+/* -----------------------------------------------------------------------------
+ * Tutorial series
+ * Landing page (_pages/tutorials.md) and per-part navigation
+ * (_includes/series_nav.liquid), both driven by _data/tutorials.yml.
+ * -------------------------------------------------------------------------- */
+
+.series-nav {
+  margin: 1.5rem 0;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.9rem;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .series-nav-meta {
+    color: var(--global-text-color-light);
+    text-transform: lowercase;
+  }
+
+  .series-nav-links {
+    margin-top: 0.2rem;
+  }
+
+  .series-nav-disabled {
+    color: var(--global-text-color-light);
+    opacity: 0.55;
+  }
+}
+
+.tutorials-series {
+  .tutorial-section-title {
+    margin-top: 2.2rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 1.4rem;
+  }
+
+  .tutorial-section-count {
+    float: right;
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+  }
+
+  .tutorial-section-blurb {
+    margin-bottom: 0.6rem;
+    color: var(--global-text-color-light);
+
+    .post-meta {
+      display: block;
+      font-size: 0.8rem;
+    }
+  }
+
+  .tutorial-section-empty {
+    color: var(--global-text-color-light);
+    font-style: italic;
+    opacity: 0.7;
+  }
+
+  .tutorial-list {
+    margin-bottom: 0;
+    padding-left: 1.4rem;
+  }
+
+  .tutorial-item {
+    margin-bottom: 0.5rem;
+
+    .tutorial-item-title {
+      font-weight: 600;
+    }
+
+    .tutorial-item-desc {
+      display: block;
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Pages that have no notebooks yet: visible, but clearly not ready. */
+  .tutorial-item-planned {
+    color: var(--global-text-color-light);
+
+    .tutorial-item-title {
+      font-weight: normal;
+    }
+
+    .tutorial-item-desc {
+      opacity: 0.7;
+    }
+  }
+
+  .tutorial-badge {
+    display: inline-block;
+    margin-left: 0.4rem;
+    padding: 0.1rem 0.45rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 3px;
+    color: var(--global-text-color-light);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,262 @@
+# Tutorial series manifest.
+#
+# This is the single source of truth for the series. The landing page
+# (_pages/tutorials.md) and the per-page navigation (_includes/series_nav.liquid)
+# both read it, and the exporter in the companion repository reads it to decide
+# which notebooks to convert and what front matter to give the generated posts.
+#
+# Structure is two levels:
+#
+#   sections   one per chapter of the survey, ordered by `order`
+#   tutorials  one per page, each belonging to a section via `section`
+#
+# A tutorial is normally one notebook, but may list several, which are then
+# concatenated in order onto its page. Pages live at
+# /tutorials/<section>/<slug>/.
+#
+# No code or notebooks live in this repository. Notebooks are authored in
+# `examples-ot` and exported here as Markdown + SVG by:
+#
+#     python export_tutorials.py --site ../eddardd.github.io
+#
+# To publish a tutorial: write its notebook in the companion repo, list it under
+# `notebooks`, give the entry a `date`, set `status: published`, and export.
+# Entries left as `planned` need no date and are shown on the landing page as
+# upcoming, so the roadmap is visible before the writing is done.
+
+series:
+  id: ot-for-ml
+  title: Optimal Transport for Machine Learning
+  description: >
+    A hands-on companion to our survey "Recent Advances in Optimal Transport for
+    Machine Learning" (IEEE TPAMI, 2024). The survey compresses a decade of work
+    into a map of the field; this series walks the same ground slowly, with
+    runnable code and worked intuition for each idea.
+  paper_key: montesuma2024recent # entry in _bibliography/papers.bib
+  repo: https://github.com/eddardd/examples-ot
+  # Where the exporter writes figures, relative to the site root.
+  image_dir: assets/img/tutorials
+
+sections:
+  - id: foundations
+    order: 1
+    title: Foundations
+    paper_section: Background
+    description: The transport problem itself, and the distance it induces.
+
+  - id: computational-ot
+    order: 2
+    title: Computational Optimal Transport
+    paper_section: Computational Optimal Transport
+    description: How transport problems are actually solved at scale.
+
+  - id: supervised-learning
+    order: 3
+    title: Supervised Learning
+    paper_section: Supervised Learning
+    description: Transport costs as training objectives, and as a lens on fairness.
+
+  - id: unsupervised-learning
+    order: 4
+    title: Unsupervised Learning
+    paper_section: Unsupervised Learning
+    description: Generating, decomposing and grouping data through transport.
+
+  - id: transfer-learning
+    order: 5
+    title: Transfer Learning
+    paper_section: Transfer Learning
+    description: Moving models across domains — the corner of the field this series' author works in.
+
+  - id: reinforcement-learning
+    order: 6
+    title: Reinforcement Learning
+    paper_section: Reinforcement Learning
+    description: Distributions over returns, and transport in policy optimization.
+
+  - id: closing
+    order: 7
+    title: Where This Leaves Us
+    paper_section: Final Remarks
+    description: What is still hard, and what looks promising.
+
+tutorials:
+  # --- Foundations ---------------------------------------------------------
+  - slug: three-formulations
+    section: foundations
+    order: 1
+    title: Monge, Kantorovich and Benamou-Brenier
+    description: Three ways to state the same transport problem, and why each one is useful.
+    tags: optimal-transport foundations tutorial
+    status: planned
+    notebooks: []
+
+  - slug: wasserstein-distance
+    section: foundations
+    order: 2
+    title: The Wasserstein Distance
+    description: What the transport cost measures, and how its geometry differs from other divergences.
+    tags: optimal-transport wasserstein foundations tutorial
+    status: planned
+    notebooks: []
+
+  # --- Computational OT ----------------------------------------------------
+  - slug: entropic-regularization
+    section: computational-ot
+    order: 1
+    title: Entropic Regularization and Sinkhorn
+    description: Trading exactness for speed, and what the regularization does to the transport plan.
+    tags: optimal-transport sinkhorn entropic tutorial
+    status: planned
+    notebooks: []
+
+  - slug: sliced-wasserstein-distance
+    section: computational-ot
+    order: 2
+    title: The Sliced Wasserstein Distance
+    date: 2026-09-16
+    description: Projecting to one dimension, where transport is a sort — and what that costs you in bias.
+    tags: optimal-transport sliced-wasserstein computation tutorial
+    status: published
+    notebooks:
+      - Sliced Wasserstein Distance.ipynb
+
+  - slug: gromov-wasserstein
+    section: computational-ot
+    order: 3
+    title: Gromov-Wasserstein and Incomparable Spaces
+    description: Comparing distributions that do not live in the same space at all.
+    tags: optimal-transport gromov-wasserstein tutorial
+    status: planned
+    notebooks: []
+
+  - slug: neural-solvers
+    section: computational-ot
+    order: 4
+    title: Neural Network Solvers
+    description: Input-convex networks and learning the transport map instead of solving for it.
+    tags: optimal-transport neural-ot icnn tutorial
+    status: planned
+    notebooks: []
+
+  - slug: mini-batch-ot
+    section: computational-ot
+    order: 5
+    title: Mini-batch Optimal Transport
+    description: What happens to a transport plan when you only ever see a batch at a time.
+    tags: optimal-transport mini-batch tutorial
+    status: planned
+    notebooks: []
+
+  - slug: partial-and-unbalanced-ot
+    section: computational-ot
+    order: 6
+    title: Partial, Unbalanced and Weak Optimal Transport
+    description: Relaxing the constraint that all mass must move, and why outliers stop mattering.
+    tags: optimal-transport unbalanced partial tutorial
+    status: planned
+    notebooks: []
+
+  # --- Supervised learning -------------------------------------------------
+  - slug: ot-as-a-loss
+    section: supervised-learning
+    order: 1
+    title: Optimal Transport as a Loss
+    description: Using a transport cost where a cross-entropy would normally go.
+    tags: optimal-transport loss supervised-learning tutorial
+    status: planned
+    notebooks: []
+
+  - slug: fairness
+    section: supervised-learning
+    order: 2
+    title: Transport and Fairness
+    description: Repairing a representation by transporting groups onto a common barycenter.
+    tags: optimal-transport fairness tutorial
+    status: planned
+    notebooks: []
+
+  # --- Unsupervised learning ----------------------------------------------
+  - slug: generative-modeling
+    section: unsupervised-learning
+    order: 1
+    title: Generative Modelling
+    description: Where the Wasserstein distance enters GANs, VAEs and adversarial autoencoders.
+    tags: optimal-transport generative-models gan tutorial
+    status: planned
+    notebooks: []
+
+  - slug: dictionary-learning
+    section: unsupervised-learning
+    order: 2
+    title: Wasserstein Dictionary Learning
+    description: Decomposing a dataset into atoms that are themselves distributions.
+    tags: optimal-transport dictionary-learning tutorial
+    status: planned
+    notebooks: []
+
+  - slug: clustering
+    section: unsupervised-learning
+    order: 3
+    title: Clustering
+    description: k-means as a transport problem, and what barycenters buy you.
+    tags: optimal-transport clustering barycenters tutorial
+    status: planned
+    notebooks: []
+
+  # --- Transfer learning ---------------------------------------------------
+  - slug: shallow-domain-adaptation
+    section: transfer-learning
+    order: 1
+    title: Shallow Domain Adaptation
+    description: Transporting source samples onto the target distribution, and regularizing by class.
+    tags: optimal-transport domain-adaptation tutorial
+    status: planned
+    notebooks: []
+
+  - slug: deep-domain-adaptation
+    section: transfer-learning
+    order: 2
+    title: Deep Domain Adaptation
+    description: Matching distributions in a learned latent space rather than in input space.
+    tags: optimal-transport domain-adaptation deep-learning tutorial
+    status: planned
+    notebooks: []
+
+  - slug: multi-source-domain-adaptation
+    section: transfer-learning
+    order: 3
+    title: Multi-Source Domain Adaptation
+    description: Many sources, one target, and the barycenter that sits between them.
+    tags: optimal-transport domain-adaptation wasserstein-barycenters tutorial
+    status: planned
+    notebooks: []
+
+  # --- Reinforcement learning ----------------------------------------------
+  - slug: distributional-rl
+    section: reinforcement-learning
+    order: 1
+    title: Distributional Reinforcement Learning
+    description: Learning the whole return distribution, and measuring it with a Wasserstein metric.
+    tags: optimal-transport reinforcement-learning tutorial
+    status: planned
+    notebooks: []
+
+  - slug: policy-optimization
+    section: reinforcement-learning
+    order: 2
+    title: Bayesian RL and Policy Optimization
+    description: Transport as a trust region on the space of policies.
+    tags: optimal-transport reinforcement-learning policy-optimization tutorial
+    status: planned
+    notebooks: []
+
+  # --- Closing -------------------------------------------------------------
+  - slug: challenges
+    section: closing
+    order: 1
+    title: Challenges and Open Problems
+    description: Sample complexity, the curse of dimensionality, and where the estimators break down.
+    tags: optimal-transport challenges tutorial
+    status: planned
+    notebooks: []
